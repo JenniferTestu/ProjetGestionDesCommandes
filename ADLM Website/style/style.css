@@ -1,0 +1,122 @@
+﻿body {
+  font: 300 15px/1.6 "Source Sans Pro",sans-serif;
+  margin: 0;
+}
+
+#contenu{
+	padding: 2em 2em 1em;
+	display:flex;
+	align-items: center;
+    justify-content: center;
+	flex-wrap:wrap;
+}
+
+#form_inscrip{
+	display:flex;
+}
+
+#form_inscrip > *{
+	margin:5px;
+}
+
+#champs_dest, #champs_fact{
+	 display:none;
+}
+
+input[type="submit"], button {
+    background-color:#E31010;
+	color:white;
+	padding:5px 8px;
+}
+
+html {
+  	background-image: url("route.jpg");
+	display : flex;
+	color: white;
+	flex-wrap:nowrap;
+	flex-direction : column;
+}
+
+h3 {
+	 margin-left : 10px;
+}
+
+#reseaux {
+	text-align:left;
+}
+
+#img-panier, #img-courrier, #img-fb{
+	width : 50px;
+}
+
+#logo{
+	height : 125px;
+}
+
+header {
+	flex-wrap:wrap;
+	display:flex;
+	justify-content:space-between;
+	padding:0px 10px;
+}
+
+footer {
+  font: 10px/1.6 "Source Sans Pro",sans-serif;
+  margin: 0;
+  padding: 3em 0 2em;
+  text-align: center;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+
+#identification, #inscription, #faq{
+	float : right;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+li a:hover:not(.active) {
+	background-image: radial-gradient(50% 40% ellipse at center bottom, #E31010 0%, #333 100%);
+}
+
+.active {
+    background-image: radial-gradient(50% 40% ellipse at center bottom, #E31010 0%, #333 100%);
+}
+
+nav ul li ul {
+ display:none;
+}
+ 
+nav ul li:hover ul {
+ display:block;
+}
+
+nav li:hover ul li {
+ float:none;
+}
+ 
+nav li ul {
+ position:absolute;
+ }
