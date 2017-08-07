@@ -1,0 +1,289 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% TEMPLATE POUR L'ÉDITION SOUS \LaTeX{} D'UN RAPPORT DE STAGE DE 3e ANNÉE DE
+%% LICENCE INFORMATIQUE 
+%%
+%% Ce template est mis à la disposition des étudiants pour faciliter l'écriture
+%% de leur rapport. Ces derniers peuvent l'éditer à leur convenance (excepté 
+%% les parties du préambule indiquées comme étant NON MODIFIABLES servant au 
+%% choix du style de mise en page). 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt, a4paper]{article} % (NON MODIFIABLE)
+
+%% Packages utilisés 
+% (MODIFIABLE : des packages peuvent être ajoutés)
+\usepackage[french]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[svgnames]{xcolor}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb,amsthm,amscd}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\usepackage{url}
+
+%% Mise en page (marges)
+% (NON MODIFIABLE)
+\setlength{\topmargin}{0pt}
+\setlength{\oddsidemargin}{0pt}
+\setlength{\textwidth}{16cm}
+\setlength{\textheight}{22cm}
+\setlength{\footskip}{36pt}
+
+%% Environnement de "théorèmes"
+% (MODIFIABLE)
+\newtheorem{defin}{Définition}
+\newtheorem{prop}{Proposition}
+\newtheorem{thm}{Théorème}
+\newtheorem{cor}{Corollaire}
+\newtheorem{lem}{Lemme}
+\newtheorem{nota}{Notation}
+\newtheorem{rem}{Remarque}
+\newtheorem{conj}{Conjecture}
+\newtheorem{nb}{N.B.}
+
+%% Taille relative tolérée d'un objet flottant sur une page
+% (MODIFIABLE)
+\renewcommand{\floatpagefraction}{0.95}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% DÉBUT DU DOCUMENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%% Changement de nom pour la bibliographie
+\renewcommand{\refname}{Bibliographie}
+%% Style de bibliographie alpha
+\bibliographystyle{alpha}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Première de couverture %
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\thispagestyle{empty}
+\begin{center}
+  {\LARGE UNIVERSITÉ D'ÉVRY -- VAL D'ESSONNE}
+  \vskip 3mm
+  {\LARGE Département d'informatique}\\
+  \vskip 3mm
+  \begin{figure}[ht]
+    \begin{center}
+      \includegraphics[scale=0.35]{logoUEVE.png}
+    \end{center}
+  \end{figure}
+  \vskip 1.6cm
+  {\huge RAPPORT DE STAGE}\\
+  \vskip 3mm
+  de $3^e$ année de la licence d'informatique\\
+  %% Faites un choix en fonction du parcours dans lequel vous êtes inscrit
+  parcours ASR/INFO/MIAGE\\  
+  soutenu par\\
+  %% Indiquez votre prénom et votre nom en lieu et place de "Prénom Nom"
+  \vskip 3mm {\LARGE {\bf Prénom Nom}} 
+  %% Remplacez JJ et AAAA par le jour et l'année de votre soutenance
+  \vskip 3mm le JJ nom\_du\_mois AAAA 
+  %% Indiquez le titre de votre stage
+  \vfill {\huge {\bf Titre du stage}} \vfill
+  \emph{Directeur de stage}\\
+  %% Indiquez le prénom et le nom de votre maître de stage en lieu et place
+  %% de "Prénom Nom"
+  Prénom Nom\\
+  \emph{\'Etablissement d'accueil}\\
+  %% Indiquez le nom de l'établissement qui vous a accueilli
+  Nom de l'établissement 
+  %% Indiquez l'année universitaire
+  \vskip 3cm Année universitaire AAAA-AAAA
+\end{center}
+
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%
+% Table des matières %
+%%%%%%%%%%%%%%%%%%%%%%
+
+\hrule\medskip
+
+\begin{center}
+  \tableofcontents
+\end{center}
+
+\medskip\hrule\bigskip\bigskip
+
+%%%%%%%%%%%%%
+% Section 1 %
+%%%%%%%%%%%%%
+
+\section{Section 1}
+\label{sec:section1}
+
+\noindent Cette section donne une idée de comment intégrer une figure et 
+comment y faire référence. Notez qu'un autre exemple d'insertion d'image était 
+déjà donné dans la page de titre du document. En l'occurrence, la 
+figure~\ref{fig:logo_ueve} représente le logo de l'Université d'Évry -- val 
+d'Essonne.
+
+\begin{figure}[htbp!] %% 'h' pour here, 't' pour top, 'b' pour bottom, 'p' 
+                      %% pour paragraph et '!' pour indiquer qu'on force ce 
+                      %% positionnement. Ici, "h!" aurai suffi 
+	\centerline{\includegraphics[scale=0.35]{logoUEVE.png}}
+	\caption{Logo de l'UEVE.}
+	\label{fig:logo_ueve}
+\end{figure}
+
+%%%%%%%%%%%%%
+% Section 2 %
+%%%%%%%%%%%%%
+
+\section{Section 2}
+\label{sec:section2}
+
+\noindent Cette section donne un exemple de comment faire pour créer des 
+sous-sections à l'intérieur d'une section. Par ailleurs, elle présente aussi 
+la manière de citer des références qui sont définie dans le fichier 
+\texttt{template\_stage\_L3.bib}.
+
+\subsection{Sous-section 2.1}
+\label{sub:2.1}
+
+\noindent Ceci est un exemple de citation~\cite{citation1}.\medskip
+
+\noindent\dots\\
+\noindent\dots
+
+\subsection{Sous-section 2.2}
+\label{sub:2.2}
+
+La section~\ref{sub:2.1} cite la référence bibliographique~\cite{citation1} 
+mais ne cite pas~\cite{citation2}. On peut remarquer qu'ici, vu qu'on 
+n'indique pas \texttt{$\backslash$noindent} au début de la ligne, \LaTeX{} 
+génère automatiquement un alinéa.\medskip
+
+\noindent\dots\\
+\noindent\dots
+
+\subsection{Sous-section 2.3}
+\label{sub:2.3}
+
+En \LaTeX{}, ce qu'il y a de bien, si on en a besoin, c'est qu'on peut assez 
+facilement introduire des formules de mathématiques. Par exemple, on peut 
+rentrer une formule dans le texte entre \$ comme $\forall i \in \{1, \ldots, 
+n\},\ x_i = y_i^2$, où $x$ et $y$ sont des vecteurs d'entiers de dimension $5$ 
+tels que $x = (1,4,9,16,25)$ et $y = (1,2,3,4,5)$.\medskip
+
+Ce qui peut parfois être intéressant est d'ajouter une équation un peu plus 
+importante en la mettant en avant, en faisant en sorte qu'elle soit centrée sur 
+la ligne suivante. Par exemple, si l'on veut donner la définition de la suite 
+de Fibonacci de cette manière, on pourra définir une fonction $f: \mathbb{N} 
+\to \mathbb{N}^*$ de la manière suivante:
+\begin{equation}
+  f(x) = \begin{cases}
+    1 & \text{si } x=0\text{,}\\
+    1 & \text{si } x=1\text{,}\\
+    f(x-2) + f(x-1) & \text{sinon.}
+  \end{cases}
+  \label{eq:fibo}
+\end{equation}
+
+On peut ensuite faire référence à la définition de la fonction $f$ en disant 
+qu'elle se trouve dans l'équation~(\ref{eq:fibo}).
+
+\section{Section 3}
+\label{sec:section3}
+
+\noindent Le livre de référence pour bien comprendre comment éditer du texte en
+\LaTeX{} est~\cite{Goossens1994}. Les deux autres références auxquelles vous 
+pouvez vous référer sont:
+\begin{itemize}
+\item le site officiel de \LaTeX{} qui se trouve à l'adresse 
+\url{http://www.latex-project.org/} ainsi que 
+\item le document téléchargeable à l'adresse 
+\url{http://www.ibisc.fr/~ssene/admin/2012-13/stages/aide_latex.pdf} qui 
+récapitule un grand nombre d'informations concernant l'édition de texte grâce à
+ce logiciel.
+\end{itemize}
+
+\noindent\dots\\
+\noindent\dots
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Conclusion et perspectives %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Section 4}
+\label{sec:section4}
+
+Dans cette section, on retrouve un exemple d'insertion d'une table (qui 
+contient un tableau \og basique \fg{}). Le tableau est ainsi contenu dans 
+l'élément flottant de type table, qui s'avère être la 
+table~\ref{tab:exemple_tab}.
+
+\begin{table}[htbp!]
+  \centerline{
+    \begin{tabular}{|c|c|c|c|c|c|}
+      \hline	
+      Nom & Prénom & Année & Mois de naissance & Jour & Nombre\\
+      & & de naissance & de naissance & de naissance & d'enfants\\
+      \hline\hline
+      Durand & Albert & 1957 & décembre & 1 & 3\\
+      Martin & Béatrice & 1974 & mars & 23 & 1\\
+      Bernard & Charles & 1993 & juillet & 14 & 0\\
+      \hline
+    \end{tabular}
+  }
+  \caption{Exemple d'un tableau à six colonnes contenu dans une table.}
+  \label{tab:exemple_tab}
+\end{table}
+  
+On peut très bien modifier le tableau pour ajouter des lignes séparatrices 
+entre les correspondant aux éléments de ce dernier, en faisant en sorte de 
+ne pas l'intégrer à un objet flottant de type table. De cette façon, il 
+faut remarquer qu'on ne peut plus y faire référence. Cela donne:
+\begin{center}
+  \begin{tabular}{|c|c|c|c|c|c|}
+    \hline	
+    Nom & Prénom & Année & Mois de naissance & Jour & Nombre\\
+    & & de naissance & de naissance & de naissance & d'enfants\\
+    \hline\hline
+    Durand & Albert & 1957 & décembre & 1 & 3\\
+    \hline
+    Martin & Béatrice & 1974 & mars & 23 & 1\\
+    \hline
+    Bernard & Charles & 1993 & juillet & 14 & 0\\
+    \hline
+  \end{tabular}
+\end{center}
+
+\noindent\dots\\
+\noindent\dots
+
+%%%%%%%%%%%%%%%%%
+% Bibliographie %
+%%%%%%%%%%%%%%%%%
+\bibliography{template_stage_L3.bib}
+
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Annexes -> changement des numéros de pages en lettres %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\appendix
+\setcounter{page}{1}
+\renewcommand{\thepage}{\roman{page}}
+
+%%%%%%%%%%%
+% Annexes %
+%%%%%%%%%%%
+
+\section{Titre de l'annexe A}
+\label{ann:annexe_A}
+
+\dots 
+
+\section{Titre de l'annexe B}
+\label{ann:annexe_B}
+
+\dots
+
+\end{document}

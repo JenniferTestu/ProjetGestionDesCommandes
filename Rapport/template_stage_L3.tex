@@ -1,0 +1,223 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% TEMPLATE POUR L'ÉDITION SOUS \LaTeX{} D'UN RAPPORT DE STAGE DE 3e ANNÉE DE
+%% LICENCE INFORMATIQUE 
+%%
+%% Ce template est mis à la disposition des étudiants pour faciliter l'écriture
+%% de leur rapport. Ces derniers peuvent l'éditer à leur convenance (excepté 
+%% les parties du préambule indiquées comme étant NON MODIFIABLES servant au 
+%% choix du style de mise en page). 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt, a4paper]{article} % (NON MODIFIABLE)
+
+%% Packages utilisés 
+% (MODIFIABLE : des packages peuvent être ajoutés)
+\usepackage[french]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[svgnames]{xcolor}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb,amsthm,amscd}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{geometry}
+
+
+
+%% Mise en page (marges)
+% (NON MODIFIABLE)
+\geometry{hmargin=15mm,vmargin=20mm}
+
+%% Environnement de "théorèmes"
+% (MODIFIABLE)
+\newtheorem{defin}{Définition}
+\newtheorem{prop}{Proposition}
+\newtheorem{thm}{Théorème}
+\newtheorem{cor}{Corollaire}
+\newtheorem{lem}{Lemme}
+\newtheorem{nota}{Notation}
+\newtheorem{rem}{Remarque}
+\newtheorem{conj}{Conjecture}
+\newtheorem{nb}{N.B.}
+
+%% Taille relative tolérée d'un objet flottant sur une page
+% (MODIFIABLE)
+\renewcommand{\floatpagefraction}{0.95}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% DÉBUT DU DOCUMENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%% Changement de nom pour la bibliographie
+\renewcommand{\refname}{Bibliographie}
+%% Style de bibliographie alpha
+\bibliographystyle{alpha}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Première de couverture %
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\thispagestyle{empty}
+\begin{center}
+  {\LARGE UNIVERSITÉ D'ÉVRY -- VAL D'ESSONNE}
+  \vskip 3mm
+  {\LARGE Département d'informatique}\\
+  \vskip 3mm
+  \begin{figure}[ht]
+    \begin{center}
+      \includegraphics[scale=0.35]{logoUEVE.png}
+    \end{center}
+  \end{figure}
+  \vskip 1.6cm
+  {\LARGE RAPPORT DE PROJET}\\
+  \vskip 3mm
+  de $3^e$ année de la licence d'informatique\\
+  %% Faites un choix en fonction du parcours dans lequel vous êtes inscrit
+  parcours MIAGE\\  
+  soutenu par\\
+  %% Indiquez votre prénom et votre nom en lieu et place de "Prénom Nom"
+  \vskip 3mm {\LARGE {\bf Myriam Fouda, Sema Sunner, Jennifer Testu}} 
+  %% Remplacez JJ et AAAA par le jour et l'année de votre soutenance
+  \vskip 3mm le 29 Août 2017 
+  %% Indiquez le titre de votre stage
+  \vfill {\huge {\bf Gestion des commandes}} \vfill
+  \emph{Entreprise destinataire du projet}\\
+  %% Indiquez le nom de l'établissement qui vous a accueilli
+  Autour de la moto 
+  %% Indiquez l'année universitaire
+  \vskip 3cm Année universitaire 2016-2017
+\end{center}
+
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%
+% Table des matières %
+%%%%%%%%%%%%%%%%%%%%%%
+
+\hrule\medskip
+
+\begin{center}
+  \tableofcontents
+\end{center}
+
+\medskip\hrule\clearpage
+
+%%%%%%%%%%%%%
+% Section 1 %
+%%%%%%%%%%%%%
+
+\section{Introduction}
+\label{sec:Introduction}
+
+\noindent Etudiantes en L3 MIAGE à l'Université d'Evry Val d'Essonne, nous avions un projet remplaçant le stage obligatoire. Ce projet a pour objectif de mettre en œuvre les connaissances acquises durant les trois années  de licence.\newline
+Ce projet consiste en la création d'un site de vente en ligne ainsi qu'une application de gestion de commandes pour l'entreprise Autour de la Moto pour l'autoentrepreneur  Monique Sommaï qui commercialise des produits du monde de la moto (vêtements, accessoires et équipements).\newline
+Le projet a duré le temps de l'été 2017 en commençant le 15 mai, jusqu'à sa présentation orale le 28 août.\newline
+Le site de vente en ligne permet à des clients potentiels de consulter la liste des produits ainsi que d'effectuer des achats, tandis que l'application de gestion de commandes permet à l'autoentrepreneur de gérer les commandes à traiter ainsi que ses stocks.\newline
+Premièrement, nous commencerons par présenter le contexte du stage en présentant tout d'abord l'entreprise, puis son activité.\newline
+Par la suite, nous présenterons ce qui a été réalisé dans le cadre de ce projet.
+Puis nous ferons un bilan du travail final avant de conclure.
+
+
+%%%%%%%%%%%%%
+% Section 2 %
+%%%%%%%%%%%%%
+
+\section{Cahier des charges}
+\label{sec:Cahier des charges}
+
+%%\texttt{template\_stage\_L3.bib}.
+
+\subsection{Contenu}
+\label{sub:Contenu}
+
+\noindent METTRE DIAGRAMMES
+
+
+\subsection{Technologies utilisées}
+\label{sub:Technologies utilisées}
+
+\noindent Pour réaliser ce projet, nous avons utilisé les outils :
+\begin{itemize}
+	\item Modelio : pour la totalité des diagrammes UML
+	\item Eclipse : pour la totalité des classes écrites en langage Java
+	\item Swing : pour le contenu graphique
+	\item WampServeur : pour la base de données de tests (inclus PhpAdmin et MySQL)
+	\item NotePad : pour la création du site
+	\item Google Chrome et Mozilla Firefox : pour les tests du site
+	\item Git : pour le partage du contenu du projet
+	\item Latex : pour la création du rapport
+	\item Photoshop : pour la création d’un logo
+\end{itemize}
+
+\noindent \newline Lien Git : \url{http://www.latex-project.org/}
+
+
+\subsection{Problématique}
+\label{sub:Problématique}
+
+\noindent Le but était d'améliorer le système de vente de l'entreprise qui présentait uniquement ses produits sur les marchés et une page Facebook. Nous avons voulu faire un système simple d'utilisation car l'autoentrepreneur n’est pas adepte des technologies.\newline
+L'application peut être améliorée en fonction des besoins.\newline
+Nous avons décidé d'appliquer le modèle en spirale pour la gestion du projet, permettant de tester  étape par étape, et potentiellement revenir en arrière en cas de besoin de modification d'une étape.
+
+
+\section{Contexte du projet}
+\label{sec:Contexte du projet}
+
+\subsection{Présentation de l'entreprise Autour de la Moto}
+\label{sub:Présentation de l'entreprise Autour de la Moto}
+
+\subsection{Mise en place du site de vente en ligne}
+\label{sub:Mise en place du site de vente en ligne}
+
+\noindent L'entreprise ne disposait au départ d'aucun site internet. Les ventes s'effectuaient sur les marchés ou par le biais d'une page Facebook. \newline
+Nous avons donc décidé de créer un site de vente en ligne qui serait propre à l'entreprise et permettrait potentiellement d'élargir la clientèle.\newline
+Avant toute chose, nous avons commencé par un travail de recherche sur le langage PHP que nous n'avions jamais étudié. Ensuite nous avons travaillé sur l'agencement du site pour le rendre le plus simple d'utilisation et le plus efficace possible, en essayant d'intégrer un design agréable à la consultation. \newline
+L'application de gestion permet à l'entreprise de gérer les commandes à traiter, les stocks en ajoutant ou supprimant des produits et consulter la liste des fournisseurs et les produits qui leur sont associés.
+
+\subsection{Présentation de l’application de gestion de commandes}
+\label{sub:Présentation de l’application de gestion de commandes}
+
+\section{Travaux réalisés}
+\label{sec:Travaux réalisés}
+
+\subsection{Réalisation d'un site de vente en ligne}
+\label{sub:Réalisation d'un site de vente en ligne}
+
+\noindent Nous avons commencé par créer un logo pour l’entreprise.\newline
+Le site de vente a été réalisé en PHP, HTML et CSS. Les pages sont sous forme de PHP nous permettant ainsi de communiquer avec la base de données.
+
+\subsection{Réalisation d'une application de gestion de commandes}
+\label{sub:Réalisation d'une application de gestion de commandes}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Conclusion et perspectives %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Bilan}
+\label{sec:Bilan}
+
+\noindent L'entreprise Autour de la Moto dispose donc actuellement d'un site nécessitant quelques corrections mais étant en état de marche. Il faut juste trouver un hébergeur. Il est également nécessaire d'ajouter un module de paiement.\newline
+L'application de gestion nécessite également quelques corrections mais il est tout de même possible de s'en servir correctement.\newline
+Nous avons atteint notre objectif de mettre à disposition des outils simples d'utilisation, et il sera possible à l'avenir de modifier des éléments ou en ajouter.
+
+\clearpage
+%%%%%%%%%%%%%%%%%
+% Bibliographie %
+%%%%%%%%%%%%%%%%%
+\bibliography{template_stage_L3.bib}
+
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Annexes -> changement des numéros de pages en lettres %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\appendix
+\setcounter{page}{1}
+\renewcommand{\thepage}{\roman{page}}
+
+
+\end{document}
