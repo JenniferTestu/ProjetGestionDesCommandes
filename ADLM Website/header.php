@@ -30,38 +30,38 @@ mysqli_query($con,"SET NAMES 'utf8'");
 		<ul>
 		  <li><a href="#homme">Homme</a>
 			<ul>
-				<li><a href="./produit_liste.php">Sportswear</a></li>
-				<li><a href="#gants">Gants</a></li>
-				<li><a href="#chaussures">Chaussures</a></li>
+				<li><a href="./produit_liste.php?categorie=Homme&souscategorie=Sportswear">Sportswear</a></li>
+				<li><a href="./produit_liste.php?categorie=Homme&souscategorie=Gants">Gants</a></li>
+				<li><a href="./produit_liste.php?categorie=Homme&souscategorie=Chaussures">Chaussures</a></li>
 			</ul>
 		  </li>
 		  <li><a href="#femme">Femme</a>
 			<ul>
-				<li><a href="#tshirt">Sportswear</a></li>
-				<li><a href="#gants">Gants</a></li>
-				<li><a href="#chaussures">Chaussures</a></li>
+				<li><a href="./produit_liste.php?categorie=Femme&souscategorie=Sportswear">Sportswear</a></li>
+				<li><a href="./produit_liste.php?categorie=Femme&souscategorie=Gants">Gants</a></li>
+				<li><a href="./produit_liste.php?categorie=Femme&souscategorie=Chaussures">Chaussures</a></li>
 			</ul>
 		  </li>
 		  <li><a href="#enfant">Enfant</a>
 			<ul>
-				<li><a href="#tshirt">Sportswear</a></li>
-				<li><a href="#gants">Gants</a></li>
-				<li><a href="#chaussures">Chaussures</a></li>
-				<li><a href="#accessoires">Accessoires</a></li>
+				<li><a href="./produit_liste.php?categorie=Enfant&souscategorie=Sportswear">Sportswear</a></li>
+				<li><a href="./produit_liste.php?categorie=Enfant&souscategorie=Gants">Gants</a></li>
+				<li><a href="./produit_liste.php?categorie=Enfant&souscategorie=Chaussures">Chaussures</a></li>
+				<li><a href="./produit_liste.php?categorie=Enfant&souscategorie=Accessoires">Accessoires</a></li>
 			</ul>
 		  </li>
 		  <li><a href="#divers">Divers</a>
 			<ul>
-				<li><a href="#blouson">Bijoux</a></li>
-				<li><a href="#pantalon">Porte clés</a></li>
-				<li><a href="#tshirt">Stickers</a></li>
-				<li><a href="#casques">Coques de téléphone</a></li>
+				<li><a href="./produit_liste.php?categorie=Divers&souscategorie=Bijoux">Bijoux</a></li>
+				<li><a href="./produit_liste.php?categorie=Divers&souscategorie=Porte cles">Porte clés</a></li>
+				<li><a href="./produit_liste.php?categorie=Divers&souscategorie=Stickers">Stickers</a></li>
+				<li><a href="./produit_liste.php?categorie=Divers&souscategorie=Coques">Coques de téléphone</a></li>
 			</ul>
 		  </li>
 		  <li><a href="#divers">Equipement</a>
 			<ul>
-				<li><a href="#blouson">Poignées</a></li>
-				<li><a href="#pantalon">Décorations</a></li>
+				<li><a href="./produit_liste.php?categorie=Equipement&souscategorie=Poignees">Poignées</a></li>
+				<li><a href="./produit_liste.php?categorie=Equipement&souscategorie=Decorations">Décorations</a></li>
 			</ul>
 		  </li>
 		  <li id="identification">
