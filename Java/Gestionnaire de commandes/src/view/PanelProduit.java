@@ -30,7 +30,9 @@ import java.awt.print.PrinterException;
 import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
+import java.net.SocketException;
 import java.net.URL;
+import java.sql.SQLException;
 import java.text.MessageFormat;
 import java.awt.event.ActionEvent;
 import javax.swing.JLabel;
@@ -113,7 +115,31 @@ public class PanelProduit extends JPanel {
 		btnAjouter.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {				
 				
+				Produit pr = new Produit();
+				pr.setNom(textNom.getText());
+				pr.setCategorie(textCategorie.getText());
+				pr.setSousCategorie(textSousCat.getText());
+				pr.setPrixUni(Double.parseDouble(textPrix.getText()));
+				pr.setDetails(textDetails.getText());
 				
+				if(comProd.create(pr)){
+					try {
+						comProd.createImage(pathSelect);
+					} catch (SocketException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					} catch (IOException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					} catch (SQLException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					}
+					JOptionPane.showMessageDialog(null, "Le produit a été ajouté");
+					actualiser();
+				}
+				else
+					JOptionPane.showMessageDialog(null, "Echec de l'ajout du produit");
 			}
 		});
 		
@@ -143,6 +169,16 @@ public class PanelProduit extends JPanel {
 		add(btnAjouterFournisseur, "cell 1 10,alignx center,aligny center");
 		
 		btnSupprimerFournisseur = new JButton("Supprimer fournisseur");
+		btnSupprimerFournisseur.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+				/*if(comProd.deleteFournisseur(p,f)){
+					JOptionPane.showMessageDialog(null, "Le fournisseur a été supprimé");
+					tableFournisseurs.removeAll();
+					actualiser();
+				}*/
+			}
+		});
 		add(btnSupprimerFournisseur, "cell 2 10,alignx center,aligny center");
 		add(btnAjouter, "cell 0 11 3 1,alignx center,aligny center");
 		
@@ -150,8 +186,14 @@ public class PanelProduit extends JPanel {
 		btnSupprimer.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				
-				if(comProd.deleteFournisseur(p,f)){
-					JOptionPane.showMessageDialog(null, "Le fournisseur a été supprimé");
+				if(comProd.delete(p)){
+					JOptionPane.showMessageDialog(null, "Le produit a été supprimé");
+					try {
+						comProd.deleteImage(p.getId());
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 					tableFournisseurs.removeAll();
 					actualiser();
 				}
@@ -163,6 +205,36 @@ public class PanelProduit extends JPanel {
 		btnModifier.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				
+				Produit pr = new Produit();
+				pr.setId(p.getId());
+				pr.setNom(textNom.getText());
+				pr.setCategorie(textCategorie.getText());
+				pr.setSousCategorie(textSousCat.getText());
+				pr.setPrixUni(Double.parseDouble(textPrix.getText()));
+				pr.setDetails(textDetails.getText());
+				if(comProd.create(pr)){
+					try {
+						comProd.createImage(pathSelect);
+					} catch (SocketException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					} catch (IOException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					} catch (SQLException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+					JOptionPane.showMessageDialog(null, "Le produit a été ajouté");
+					actualiser();
+				}
+				
+				if(comProd.update(pr)){
+					JOptionPane.showMessageDialog(null, "Le produit a été modifié");
+					actualiser();
+				}
+				else
+					JOptionPane.showMessageDialog(null, "Echec de la modification du produit");
 			}
 		});
 		add(btnModifier, "cell 0 11 3 1,alignx center,aligny center");
@@ -286,7 +358,6 @@ public class PanelProduit extends JPanel {
 		textPrix.setText(String.valueOf(p.getPrixUni()));
 		textDetails.setText(p.getDetails());
 		
-		
 		labelImage.setIcon(ResizeImage(p.getImage()));
 		
 		/*try {
@@ -317,7 +388,7 @@ public class PanelProduit extends JPanel {
 	
 	private ImageIcon ResizeImagePath(String imgPath){ 
 		ImageIcon MyImage = new ImageIcon(imgPath); 
-		Image img = MyImage.getImage(); 
+		Image img = MyImage.getImage();
 		Image newImage = img.getScaledInstance(-1, 100,Image.SCALE_SMOOTH); 
 		ImageIcon image = new ImageIcon(newImage); 
 		return image; 
