@@ -231,6 +231,220 @@ Afin d'effectuer nos tests de base de données nous avons utilisé WampServeur.
 Cette application permet de consulter les commandes à traiter au fur à mesure que les commandes sont passées sur le site. Elle permet également de voir les commandes déjà traitées. Les listes des fournisseurs et des clients sont également disponibles. \newline
 Enfin, il est possible de voir la liste des stocks ainsi que les modifier.
 
+\newline\newline\newline
+
+\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
+\hline
+Intitulé & Type & Visibilité & Explication\\
+\hline
+nom & String & private & Nom de la personne\\
+\hline
+prenom & String & private & Prenom de la personne\\
+\hline
+adresse & String & private & Adresse de résidence de la personne\\
+\hline
+pays & String & private & Pays de résidence de la personne\\
+\hline
+\end{tabular}
+
+\newline\newline\newline
+
+\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
+\hline
+Intitulé & Type & Visibilité & Explication\\
+\hline
+id & Integer & private & N° d'identifiant du client\\
+\hline
+mail & String & private & Mail de contact du client\\
+\hline
+tel & String & private & N° de téléphone du client\\
+\hline
+\end{tabular}
+
+\newline\newline\newline
+
+\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
+\hline
+Intitulé & Type & Visibilité & Explication\\
+\hline
+id & Integer & private & N° d'identifiant du produit\\
+\hline
+nom & String & private & Nom qui désigne le produit\\
+\hline
+taille & String & private & Taille du produit\\
+\hline
+quantite & Integer & private & Quantité du produit\\
+\hline
+prixUni & Double & private & Prix à l'unité du produit\\
+\hline
+details & String & private & Description du produit\\
+\hline
+categorie & String & private & Categorie du produit\\
+\hline
+sousCategorie & String & private & Sous categorie du produit\\
+\hline
+date & Date & private & Date à laquelle le produit a été ajouté\\
+\hline
+image & ImageIcon & private & Image représentant le produit\\
+\hline
+listeFournisseurs & List<Fournisseur> & private & Liste des fournisseurs où on peut se réapprovisionner\\
+\hline
+\end{tabular}
+
+\newline\newline\newline
+
+\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
+\hline
+Intitulé & Type & Visibilité & Explication\\
+\hline
+id & Integer & private & N° d'identifiant de la commande\\
+\hline
+client & Client & private & Client qui a passé la commande\\
+\hline
+destinataire & Personne & private & Personne a qui est destiné la commande si ce n'est pas le client\\
+\hline
+payeur & Personne & private & Personne qui paye la commande si ce n'est pas le client\\
+\hline
+paiement & String & private & Mode de paiement de la commande\\
+\hline
+date & Date & private & Date à laquelle la commande a été passé\\
+\hline
+traite & Boolean & private & Traitement de la commande par l'entreprise\\
+\hline
+listeProduits & List<Produit> & private & Liste des produits composant la commande\\
+\hline
+\end{tabular}
+
+\newline\newline\newline
+
+\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
+\hline
+Intitulé & Type & Visibilité & Explication\\
+\hline
+id & integer & private & N° d'identifiant du fournisseur\\
+\hline
+nom & String & private & Nom du fournisseur\\
+\hline
+adresse & String & private & Adresse du fournisseur\\
+\hline
+mail & String & private & Mail de contact du fournisseur\\
+\hline
+tel & String & private & N° de téléphone du fournisseur\\
+\hline
+\end{tabular}
+
+\newline\newline\newline
+
+\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
+\hline
+Intitulé & Type & Visibilité & Explication\\
+\hline
+id & integer & private & N° d’identifiant de l'événement\\
+\hline
+titre & String & private & Titre de l'événement\\
+\hline
+texte & String & private & Descriptif de l'événement (lieu, date) \\
+\hline
+\end{tabular}
+
+\newline\newline\newline
+
+\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
+\hline
+Intitulé & Type retourné & Visibilité & Arguments & Explications\\
+\hline
+findById & Client & public & id : Integer & Donner le client correspondant à cet id\\
+\hline
+findAll & List<Client> & public & - & Donner la liste des clients\\
+\hline
+\end{tabular}
+
+\newline \newline \newline
+
+\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
+\hline
+Intitulé & Type retourné & Visibilité & Arguments & Explications\\
+\hline
+findAll & List<Evenement> & public & - & Donner la liste des événements \\
+\hline
+create & boolean & public & e : Evenement & Créer un nouvel événement\\
+\hline
+update & boolean & public & e : Evenement & Mettre à jour les événements\\
+\hline
+delete & boolean & public & e : Evenement & Supprimer un événement\\
+\hline
+\end{tabular}
+
+\newline \newline \newline
+
+\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
+\hline
+Intitulé & Type retourné & Visibilité & Arguments & Explications\\
+\hline
+findAll & List<Fournisseur> & public & - & Donner la liste de tous les fournisseurs\\
+\hline
+create & Boolean & public & f : Fournisseur & Créer un fournisseur\\
+\hline
+update & Boolean & public & f : Fournisseur & Mettre à jour un fournisseur\\
+\hline
+delete & Boolean & public & f : Fournisseur & Supprimer un fournisseur\\
+\hline
+\end{tabular}
+
+\newline \newline \newline
+
+\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
+\hline
+Intitulé & Type retourné & Visibilité & Arguments & Explications\\
+\hline
+findAll & List<Commande> & public & - & Donner la liste de toutes les commandes\\
+\hline
+findAllNonTraite & List<Commande> & public & - & Donner la liste de toutes les commandes à traiter\\
+\hline
+setTraite & boolean & public & idCommande : integer \par t : boolean & Spécifier dans la base de données si la commande est traitée ou non\\
+\hline
+findAllTraite & List<Commande> & public & - & Donner la liste de toutes les commandes traitées\\
+\hline
+delete & boolean & public & c : Commande & Supprimer une commande\\
+\hline
+\end{tabular}
+
+\newline \newline \newline
+
+\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
+\hline
+Intitulé & Type retourné & Visibilité & Arguments & Explications\\
+\hline
+findAllByCommande & List<Produit> & public & idCommande : Integer & Donner la liste des produits d'une commande\\
+\hline
+findAll & List<Produit> & public & - & Donner la liste de tous les produits\\
+\hline
+create & Boolean & public & p : Produit & Créer un produit\\
+\hline
+update & Boolean & public & p : Produit & Mettre à jour un produit\\
+\hline
+delete & Boolean & public & p : Produit & Supprimer un produit\\
+\hline
+findImage & ImageIcon & public & id : Integer & Donner l'image d'un produit\\
+\hline
+findStock & List<Produit> & public & id : Integer & Donner la quantité en stock d'un produit\\
+\hline
+updateStock & Boolean & public & p : Produit & Mettre à jour les stocks\\
+\hline
+deleteStock & Boolean & public & p : Produit & Supprimer le stock d'un produit\\
+\hline
+findAllFournisseurs & List<Fournisseur> & public & id : Integer & Donner la liste des fournisseurs\\
+\hline
+deleteFournisseurs & Boolean & public & p : Produit \par f : Fournisseur & Supprimer un fournisseur associé à un produit\\
+\hline
+createFournisseurs & Boolean & public & p : Produit \par f : Fournisseur & Associer un nouveau fournisseur à un produit\\
+\hline
+createImage & Boolean & public & path : String & Ajouter l'image d'un produit\\
+\hline
+deleteImage & Boolean & public & id : Integer & Supprimer l'image d'un produit\\
+\hline
+\end{tabular}
+
 \begin{center}
       \includegraphics[width=7.5in]{Use_Case_diagram_logiciel.png}
 \end{center}
