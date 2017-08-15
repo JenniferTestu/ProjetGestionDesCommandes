@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.6.16)  15 AUG 2017 12:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.6.16)  15 AUG 2017 12:50
 entering extended mode
 **./template_stage_L3.tex
 (template_stage_L3.tex
@@ -556,7 +556,12 @@ or \DeclareInputMath before using this key.
 
 [4
 
-]
+] <logoADLM.png, id=100, 658.1388pt x 370.0224pt>
+File: logoADLM.png Graphic file (type png)
+ <use logoADLM.png>
+Package pdftex.def Info: logoADLM.png used on input line 175.
+(pdftex.def)             Requested size: 230.35202pt x 129.50977pt.
+
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -565,7 +570,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.175 ...ntreprise voit le jour en mars 2016  et œ
+l.179 ...ntreprise voit le jour en mars 2016  et œ
                                                   uvre au quotidien pour con...
 
 You need to provide a definition with \DeclareInputText 
@@ -573,14 +578,15 @@ or \DeclareInputMath before using this key.
 
 [5
 
-] <diagram_passer_commande.png, id=104, 830.10126pt x 884.30376pt>
+ <./logoADLM.png>]
+<diagram_passer_commande.png, id=107, 830.10126pt x 884.30376pt>
 File: diagram_passer_commande.png Graphic file (type png)
 
 <use diagram_passer_commande.png>
-Package pdftex.def Info: diagram_passer_commande.png used on input line 203.
+Package pdftex.def Info: diagram_passer_commande.png used on input line 212.
 (pdftex.def)             Requested size: 542.025pt x 577.43533pt.
 
-Overfull \hbox (29.87537pt too wide) in paragraph at lines 203--204
+Overfull \hbox (29.87537pt too wide) in paragraph at lines 212--213
  [] 
  []
 
@@ -592,7 +598,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.206 ...e le site de vente de la recherche jusqu’
+l.215 ...e le site de vente de la recherche jusqu’
                                                   à l’acceptation du paiement.
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -605,34 +611,34 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.206 ... site de vente de la recherche jusqu’à l’
+l.215 ... site de vente de la recherche jusqu’à l’
                                                   acceptation du paiement.
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-<Use_Case_diagram_site_web.png, id=105, 782.925pt x 416.55624pt>
+<Use_Case_diagram_site_web.png, id=108, 782.925pt x 416.55624pt>
 File: Use_Case_diagram_site_web.png Graphic file (type png)
 
 <use Use_Case_diagram_site_web.png>
-Package pdftex.def Info: Use_Case_diagram_site_web.png used on input line 209.
+Package pdftex.def Info: Use_Case_diagram_site_web.png used on input line 218.
 (pdftex.def)             Requested size: 542.025pt x 288.3966pt.
 
-Overfull \hbox (29.87537pt too wide) in paragraph at lines 209--210
+Overfull \hbox (29.87537pt too wide) in paragraph at lines 218--219
  [] 
  []
 
 [6
 
  <./diagram_passer_commande.png (PNG copy)>]
-<gestion_de_stocks_Class_diagram.png, id=110, 1059.96pt x 1017.8025pt>
+<gestion_de_stocks_Class_diagram.png, id=113, 1059.96pt x 1017.8025pt>
 File: gestion_de_stocks_Class_diagram.png Graphic file (type png)
 
 <use gestion_de_stocks_Class_diagram.png>
 Package pdftex.def Info: gestion_de_stocks_Class_diagram.png used on input line
- 218.
+ 227.
 (pdftex.def)             Requested size: 542.025pt x 520.47015pt.
 
-Overfull \hbox (29.87537pt too wide) in paragraph at lines 218--219
+Overfull \hbox (29.87537pt too wide) in paragraph at lines 227--228
  [] 
  []
 
@@ -645,20 +651,20 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.221 ... principales. Trois classes permettant d’
+l.230 ... principales. Trois classes permettant d’
                                                   effectuer des requêtes SQL...
 
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-<Use_Case_diagram_logiciel.png, id=116, 735.74875pt x 436.63126pt>
+<Use_Case_diagram_logiciel.png, id=119, 735.74875pt x 436.63126pt>
 File: Use_Case_diagram_logiciel.png Graphic file (type png)
 
 <use Use_Case_diagram_logiciel.png>
-Package pdftex.def Info: Use_Case_diagram_logiciel.png used on input line 226.
+Package pdftex.def Info: Use_Case_diagram_logiciel.png used on input line 235.
 (pdftex.def)             Requested size: 542.025pt x 321.68962pt.
 
-Overfull \hbox (29.87537pt too wide) in paragraph at lines 226--227
+Overfull \hbox (29.87537pt too wide) in paragraph at lines 235--236
  [] 
  []
 
@@ -671,7 +677,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 ...mme illustre les actions possibles sur l’
+l.238 ...mme illustre les actions possibles sur l’
                                                   application pour l’entrepr...
 
 You need to provide a definition with \DeclareInputText 
@@ -685,7 +691,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 ...tions possibles sur l’application pour l’
+l.238 ...tions possibles sur l’application pour l’
                                                   entrepreneur.
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -699,24 +705,20 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 ) [11
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 261.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 261.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 270.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 270.
  (template_stage_L3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 261.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 261.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 270.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 270.
 Package rerunfilecheck Info: File `template_stage_L3.out' has not changed.
 (rerunfilecheck)             Checksum: 3F6686CD9102F8C7E580819B6B16338C;949.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 261.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 270.
  ) 
 Here is how much of TeX's memory you used:
- 8635 strings out of 493328
- 122167 string characters out of 3138291
- 230917 words of memory out of 3000000
- 12012 multiletter control sequences out of 15000+200000
+ 8640 strings out of 493328
+ 122246 string characters out of 3138291
+ 230918 words of memory out of 3000000
+ 12016 multiletter control sequences out of 15000+200000
  17021 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  28i,7n,35p,403b,449s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -732,9 +734,9 @@ i\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\
 Users\Nini\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728
 .pk><C:/Users/Nini/Documents/LaTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:
 /Users/Nini/Documents/LaTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on template_stage_L3.pdf (11 pages, 339933 bytes).
+Output written on template_stage_L3.pdf (11 pages, 596428 bytes).
 PDF statistics:
- 435 PDF objects out of 1000 (max. 8388607)
+ 439 PDF objects out of 1000 (max. 8388607)
  27 named destinations out of 1000 (max. 500000)
- 130 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 135 words of extra memory for PDF output out of 10000 (max. 10000000)
 
