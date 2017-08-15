@@ -171,9 +171,12 @@ Nous avons décidé d'appliquer le modèle en spirale pour la gestion du projet, pe
 \subsection{Présentation de l'entreprise Autour de la Moto}
 \label{sub:Présentation de l'entreprise Autour de la Moto}
 
+\begin{figure}
 \begin{center}
       \includegraphics[scale=0.35]{logoADLM.png}
 \end{center}
+\caption{Logo que nous avons créé pour l'entreprise}
+\end{figure}
 
 \noindent Autour de la moto est un distributeur de vêtements et d'accessoires  motard, moto pour hommes femmes et enfants (vêtements, bijoux, idées cadeaux).  \newline
 Animée par la passion de la moto, cette entreprise voit le jour en mars 2016  et œuvre au quotidien pour conseiller et accompagner les motards et scootéristes. Parce qu'être motard est aussi une histoire de style, Autour de la moto propose des produits de qualité, et des frais de port basés sur le coût postal réel, que ce soit pour la France ou l'étranger.  \newline
@@ -208,31 +211,42 @@ Le site et l'application de gestion sont liés par une base de données, ainsi cha
 Le site de vente a été réalisé en PHP, HTML et CSS. Les pages sont sous forme de PHP nous permettant ainsi de communiquer avec la base de données.\newline
 Afin d'effectuer nos tests de base de données nous avons utilisé WampServeur.
 
+\begin{figure}
 \begin{center}
       \includegraphics[width=7.5in]{diagram_passer_commande.png}
 \end{center}
+\caption{Diagramme d'activité lors du passage d'une commande de la part d'un client sur le site}
+\end{figure}
 
 \noindent Le diagramme de séquences illustre les actions de l'utilisateur lorsqu'il consulte le site de vente de la recherche jusqu’à l’acceptation du paiement.
 
+\begin{figure}
 \begin{center}
       \includegraphics[width=7.5in]{Use_Case_diagram_site_web.png}
 \end{center}
+\caption{Cas d'utilisation du site}
+\end{figure}
 
 \noindent Ce diagramme illustre toutes les actions possibles sur le site par un client.
 
 \subsection{Réalisation d'une application de gestion de commandes}
 \label{sub:Réalisation d'une application de gestion de commandes}
 
+\begin{figure}
 \begin{center}
       \includegraphics[width=7.5in]{gestion_de_stocks_Class_diagram.png}
 \end{center}
+\caption{Diagramme de classe de l'application Java}
+\end{figure}
 
 \noindent L'application de gestion de commandes est composée de quatre classes principales. Trois classes permettant d’effectuer des requêtes SQL utilisent les objets des classes principales.\newline
 Cette application permet de consulter les commandes à traiter au fur à mesure que les commandes sont passées sur le site. Elle permet également de voir les commandes déjà traitées. Les listes des fournisseurs et des clients sont également disponibles. \newline
 Enfin, il est possible de voir la liste des stocks ainsi que les modifier.
 
-\newline\newline\newline
+\vskip 1cm
 
+\begin{figure}
+\begin{center}
 \begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
 \hline
 Intitulé & Type & Visibilité & Explication\\
@@ -246,9 +260,14 @@ adresse & String & private & Adresse de résidence de la personne\\
 pays & String & private & Pays de résidence de la personne\\
 \hline
 \end{tabular}
+\end{center}
+\caption{Attributs de la classe Personne}
+\end{figure}
 
-\newline\newline\newline
+\vskip 1cm
 
+\begin{figure}
+\begin{center}
 \begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
 \hline
 Intitulé & Type & Visibilité & Explication\\
@@ -260,9 +279,14 @@ mail & String & private & Mail de contact du client\\
 tel & String & private & N° de téléphone du client\\
 \hline
 \end{tabular}
+\end{center}
+\caption{Attributs de la classe Client}
+\end{figure}
 
-\newline\newline\newline
+\vskip 1cm
 
+\begin{figure}
+\begin{center}
 \begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
 \hline
 Intitulé & Type & Visibilité & Explication\\
@@ -290,9 +314,14 @@ image & ImageIcon & private & Image représentant le produit\\
 listeFournisseurs & List<Fournisseur> & private & Liste des fournisseurs où on peut se réapprovisionner\\
 \hline
 \end{tabular}
+\end{center}
+\caption{Attributs de la classe Produit}
+\end{figure}
 
-\newline\newline\newline
+\vskip 1cm
 
+\begin{figure}
+\begin{center}
 \begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
 \hline
 Intitulé & Type & Visibilité & Explication\\
@@ -314,9 +343,14 @@ traite & Boolean & private & Traitement de la commande par l'entreprise\\
 listeProduits & List<Produit> & private & Liste des produits composant la commande\\
 \hline
 \end{tabular}
+\end{center}
+\caption{Attributs de la classe Commande}
+\end{figure}
 
-\newline\newline\newline
+\vskip 1cm
 
+\begin{figure}
+\begin{center}
 \begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
 \hline
 Intitulé & Type & Visibilité & Explication\\
@@ -332,9 +366,14 @@ mail & String & private & Mail de contact du fournisseur\\
 tel & String & private & N° de téléphone du fournisseur\\
 \hline
 \end{tabular}
+\end{center}
+\caption{Attributs de la classe Fournisseur}
+\end{figure}
 
-\newline\newline\newline
+\vskip 1cm
 
+\begin{figure}
+\begin{center}
 \begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
 \hline
 Intitulé & Type & Visibilité & Explication\\
@@ -346,9 +385,14 @@ titre & String & private & Titre de l'événement\\
 texte & String & private & Descriptif de l'événement (lieu, date) \\
 \hline
 \end{tabular}
+\end{center}
+\caption{Attributs de la classe Evenement}
+\end{figure}
 
-\newline\newline\newline
+\vskip 1cm
 
+\begin{figure}
+\begin{center}
 \begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
 \hline
 Intitulé & Type retourné & Visibilité & Arguments & Explications\\
@@ -358,9 +402,14 @@ findById & Client & public & id : Integer & Donner le client correspondant à cet
 findAll & List<Client> & public & - & Donner la liste des clients\\
 \hline
 \end{tabular}
+\end{center}
+\caption{Méthodes de la classe ClientModel}
+\end{figure}
 
-\newline \newline \newline
+\vskip 1cm
 
+\begin{figure}
+\begin{center}
 \begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
 \hline
 Intitulé & Type retourné & Visibilité & Arguments & Explications\\
@@ -374,9 +423,14 @@ update & boolean & public & e : Evenement & Mettre à jour les événements\\
 delete & boolean & public & e : Evenement & Supprimer un événement\\
 \hline
 \end{tabular}
+\end{center}
+\caption{Méthodes de la classe EvenementModel}
+\end{figure}
 
-\newline \newline \newline
+\vskip 1cm
 
+\begin{figure}
+\begin{center}
 \begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
 \hline
 Intitulé & Type retourné & Visibilité & Arguments & Explications\\
@@ -390,9 +444,14 @@ update & Boolean & public & f : Fournisseur & Mettre à jour un fournisseur\\
 delete & Boolean & public & f : Fournisseur & Supprimer un fournisseur\\
 \hline
 \end{tabular}
+\end{center}
+\caption{Méthodes de la classe FournisseurModel}
+\end{figure}
 
-\newline \newline \newline
+\vskip 1cm
 
+\begin{figure}
+\begin{center}
 \begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
 \hline
 Intitulé & Type retourné & Visibilité & Arguments & Explications\\
@@ -408,9 +467,14 @@ findAllTraite & List<Commande> & public & - & Donner la liste de toutes les comm
 delete & boolean & public & c : Commande & Supprimer une commande\\
 \hline
 \end{tabular}
+\end{center}
+\caption{Méthodes de la classe CommandeModel}
+\end{figure}
 
-\newline \newline \newline
+\vskip 1cm
 
+\begin{figure}
+\begin{center}
 \begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
 \hline
 Intitulé & Type retourné & Visibilité & Arguments & Explications\\
@@ -444,12 +508,19 @@ createImage & Boolean & public & path : String & Ajouter l'image d'un produit\\
 deleteImage & Boolean & public & id : Integer & Supprimer l'image d'un produit\\
 \hline
 \end{tabular}
+\end{center}
+\caption{Méthodes de la classe ProduitModel}
+\end{figure}
 
+\begin{figure}
 \begin{center}
       \includegraphics[width=7.5in]{Use_Case_diagram_logiciel.png}
 \end{center}
-
+\caption{Cas d'utilisation de l'application Java}
 \noindent Ce diagramme illustre les actions possibles sur l’application pour l’entrepreneur.
+\end{figure}
+
+
 
 \clearpage
 
