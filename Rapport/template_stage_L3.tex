@@ -177,8 +177,8 @@ Nous avons donc décidé de créer un site de vente en ligne qui serait propre à l'
 Avant toute chose, nous avons commencé par un travail de recherche sur le langage PHP que nous n'avions jamais étudié. Ensuite nous avons travaillé sur l'agencement du site pour le rendre le plus simple d'utilisation et le plus efficace possible, en essayant d'intégrer un design agréable à la consultation. \newline
 L'application de gestion permet à l'entreprise de gérer les commandes à traiter, les stocks en ajoutant ou supprimant des produits et consulter la liste des fournisseurs et les produits qui leur sont associés.
 
-\subsection{Présentation de l’application de gestion de commandes}
-\label{sub:Présentation de l’application de gestion de commandes}
+\subsection{Présentation de l'application de gestion de commandes}
+\label{sub:Présentation de l'application de gestion de commandes}
 
 \section{Travaux réalisés}
 \label{sec:Travaux réalisés}
@@ -186,11 +186,36 @@ L'application de gestion permet à l'entreprise de gérer les commandes à traiter,
 \subsection{Réalisation d'un site de vente en ligne}
 \label{sub:Réalisation d'un site de vente en ligne}
 
-\noindent Nous avons commencé par créer un logo pour l’entreprise.\newline
+\noindent Nous avons commencé par créer un logo pour l'entreprise.\newline
 Le site de vente a été réalisé en PHP, HTML et CSS. Les pages sont sous forme de PHP nous permettant ainsi de communiquer avec la base de données.
+
+\begin{center}
+      \includegraphics{diagram_passer_commande.png}
+\end{center}
+
+\noindent Le diagramme de séquences illustre les actions de l'utilisateur lorsqu'il consulte le site de vente de la recherche jusqu’à l’acceptation du paiement.
+
+\begin{center}
+      \includegraphics{Use_Case_diagram_site_web.png}
+\end{center}
+
+\noindent Ce diagramme illustre toutes les actions possibles sur le site par un client.
 
 \subsection{Réalisation d'une application de gestion de commandes}
 \label{sub:Réalisation d'une application de gestion de commandes}
+
+\begin{center}
+      \includegraphics{gestion_de_stocks_Class_diagram.png}
+\end{center}
+
+\noindent L'application de gestion de commandes est composée de quatre classes principales. Trois classes permettant d’effectuer des requêtes SQL utilisent les objets des classes principales.
+
+\begin{center}
+      \includegraphics{Use_Case_diagram_logiciel.png}
+\end{center}
+
+\noindent Ce diagramme illustre les actions possibles sur l’application pour l’entrepreneur.
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Conclusion et perspectives %

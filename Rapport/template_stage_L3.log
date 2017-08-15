@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2017.6.13)  28 JUL 2017 17:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.6.16)  15 AUG 2017 11:42
 entering extended mode
 **./template_stage_L3.tex
 (template_stage_L3.tex
 LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+(C:\Users\Nini\Documents\LaTeX\tex\latex\base\article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\base\size11.clo
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -21,84 +21,84 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2017/05/19 3.10 The Babel package
+(C:\Users\Nini\Documents\LaTeX\tex\generic\babel\babel.sty
+Package: babel 2016/04/23 3.9r The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel-french\frenchb.ldf"
-Language: frenchb 2017/04/30 v3.3a French support from the babel system
+(C:\Users\Nini\Documents\LaTeX\tex\generic\babel-french\frenchb.ldf
+Language: frenchb 2017/01/30 v3.2g French support from the babel system
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2017/05/19 3.10 Babel common definitions
+(C:\Users\Nini\Documents\LaTeX\tex\generic\babel\babel.def
+File: babel.def 2016/04/23 3.9r Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
 )
 \l@acadian = a dialect from \language\l@french 
 \l@canadien = a dialect from \language\l@french 
 \FB@nonchar=\count88
-\FBcolonsp=\toks14
-\FBthinsp=\toks15
-Package babel Info: Making : an active character on input line 362.
-Package babel Info: Making ; an active character on input line 363.
-Package babel Info: Making ! an active character on input line 364.
-Package babel Info: Making ? an active character on input line 365.
-\FBguillsp=\toks16
+\FBcolonskip=\skip43
+\FBthinskip=\skip44
+Package babel Info: Making : an active character on input line 365.
+Package babel Info: Making ; an active character on input line 366.
+Package babel Info: Making ! an active character on input line 367.
+Package babel Info: Making ? an active character on input line 368.
+\FBguillskip=\skip45
 \FBguill@level=\count89
-\FB@everypar=\toks17
+\FB@everypar=\toks14
 \FB@Mht=\dimen104
 \mc@charclass=\count90
 \mc@charfam=\count91
 \mc@charslot=\count92
 \std@mcc=\count93
 \dec@mcc=\count94
-\listindentFB=\skip43
-\descindentFB=\skip44
-\labelwidthFB=\skip45
-\leftmarginFB=\skip46
+\listindentFB=\skip46
+\descindentFB=\skip47
+\labelwidthFB=\skip48
+\leftmarginFB=\skip49
 \parindentFFN=\dimen105
-\FBfnindent=\skip47
+\FBfnindent=\skip50
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\carlisle\scalefnt.sty")
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\carlisle\scalefnt.sty)
+(C:\Users\Nini\Documents\LaTeX\tex\latex\graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks18
+\KV@toks@=\toks15
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\base\inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks19
-\inpenc@posthook=\toks20
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\base\latin1.def
 File: latin1.def 2015/03/17 v1.2c Input encoding file
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\base\fontenc.sty
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\base\t1enc.def
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\graphics-def\pdftex.def
 File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\generic\oberdiek\infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\generic\oberdiek\ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count95
@@ -113,19 +113,19 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\svgnam.def"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\xcolor\svgnam.def
 File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\graphics\graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\graphics\graphics.sty
 Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
@@ -133,24 +133,24 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \Gin@req@height=\dimen106
 \Gin@req@width=\dimen107
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\amsmath\amsmath.sty
 Package: amsmath 2016/11/05 v2.16a AMS math features
-\@mathmargin=\skip48
+\@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks21
+\@emptytoks=\toks18
 \ex@=\dimen108
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen109
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count96
@@ -173,63 +173,63 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \dotsspace@=\muskip10
 \c@parentequation=\count103
 \dspbrk@lvl=\count104
-\tag@help=\toks22
+\tag@help=\toks19
 \row@=\count105
 \column@=\count106
 \maxfields@=\count107
-\andhelp@=\toks23
+\andhelp@=\toks20
 \eqnshift@=\dimen111
 \alignsep@=\dimen112
 \tagshift@=\dimen113
 \tagwidth@=\dimen114
 \totwidth@=\dimen115
 \lineht@=\dimen116
-\@envbody=\toks24
-\multlinegap=\skip49
-\multlinetaggap=\skip50
-\mathdisplay@stack=\toks25
+\@envbody=\toks21
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\amscls\amsthm.sty
 Package: amsthm 2015/03/04 v2.20.2
-\thm@style=\toks26
-\thm@bodyfont=\toks27
-\thm@headfont=\toks28
-\thm@notefont=\toks29
-\thm@headpunct=\toks30
-\thm@preskip=\skip51
-\thm@postskip=\skip52
-\thm@headsep=\skip53
-\dth@everypar=\toks31
+\thm@style=\toks23
+\thm@bodyfont=\toks24
+\thm@headfont=\toks25
+\thm@notefont=\toks26
+\thm@headpunct=\toks27
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks28
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amscd.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\amsmath\amscd.sty
 Package: amscd 2017/04/14 v2.1 AMS Commutative Diagrams
-\athelp@=\toks32
+\athelp@=\toks29
 \minaw@=\dimen117
 \bigaw@=\dimen118
 \minCDarrowwidth=\dimen119
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\tools\tabularx.sty
 Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\tools\array.sty
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen120
 \extrarowheight=\dimen121
-\NC@list=\toks33
-\extratabsurround=\skip54
-\backup@length=\skip55
+\NC@list=\toks30
+\extratabsurround=\skip57
+\backup@length=\skip58
 )
 \TX@col@width=\dimen122
 \TX@old@table=\dimen123
@@ -237,16 +237,16 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \TX@target=\dimen125
 \TX@delta=\dimen126
 \TX@cols=\count108
-\TX@ftn=\toks34
+\TX@ftn=\toks31
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\hyperref\hyperref.sty
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\generic\oberdiek\hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\generic\oberdiek\hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -286,25 +286,25 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\generic\ifxetex\ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\oberdiek\auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\oberdiek\kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen127
 \Hy@linkcounter=\count109
 \Hy@pagecounter=\count110
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\hyperref\pd1enc.def
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count111
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\00miktex\hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4498.
@@ -316,7 +316,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
 \c@Hy@tempcnt=\count112
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\url\url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -341,19 +341,19 @@ LaTeX Info: Redefining \pageref on input line 6432.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\hyperref\hpdftex.def
 File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
 \Fld@listcount=\count117
 \c@bookmark@seq@number=\count118
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\oberdiek\rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip56
+\Hy@SectionHShift=\skip59
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\geometry\geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@cnth=\count119
 \Gm@cntv=\count120
@@ -366,9 +366,9 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutheight=\dimen136
 \Gm@layouthoffset=\dimen137
 \Gm@layoutvoffset=\dimen138
-\Gm@dimlist=\toks35
+\Gm@dimlist=\toks32
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+(C:\Users\Nini\Documents\LaTeX\tex\latex\geometry\geometry.cfg))
 \c@defin=\count122
 \c@prop=\count123
 \c@thm=\count124
@@ -383,18 +383,23 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 ! Missing \endcsname inserted.
 <to be read again> 
                    \protect 
-l.46 ...e gestion de commandes}{subsection.3.3}{}}
+l.45 ...e gestion de commandes}{subsection.3.3}{}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.46 ...e gestion de commandes}{subsection.3.3}{}}
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
+l.45 ...e gestion de commandes}{subsection.3.3}{}}
+                                                  
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
 
 
 ! LaTeX Error: Missing \begin{document}.
@@ -403,15 +408,30 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46 ...e gestion de commandes}{subsection.3.3}{}}
+l.45 ...e gestion de commandes}{subsection.3.3}{}}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Extra \endcsname.
+\@ifundefined ...dafter \ifx \csname #1\endcsname 
+                                                  \relax \expandafter \@firs...
+l.45 ...e gestion de commandes}{subsection.3.3}{}}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.45 ...e gestion de commandes}{subsection.3.3}{}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
 \@namedef ...xpandafter \def \csname #1\endcsname 
                                                   
-l.46 ...e gestion de commandes}{subsection.3.3}{}}
+l.45 ...e gestion de commandes}{subsection.3.3}{}}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
@@ -423,7 +443,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46 ...e gestion de commandes}{subsection.3.3}{}}
+l.45 ...e gestion de commandes}{subsection.3.3}{}}
                                                   
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -448,23 +468,23 @@ LaTeX Font Info:    ... okay on input line 52.
 LaTeX Info: Redefining \degres on input line 52.
 LaTeX Info: Redefining \dots on input line 52.
 LaTeX Info: Redefining \up on input line 52.
- ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+ (C:\Users\Nini\Documents\LaTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count131
 \scratchdimen=\dimen139
 \scratchbox=\box28
 \nofMPsegments=\count132
 \nofMParguments=\count133
-\everyMPshowfont=\toks36
+\everyMPshowfont=\toks33
 \MPscratchCnt=\count134
 \MPscratchDim=\dimen140
 \MPnumerator=\count135
 \makeMPintoPDFobject=\count136
-\everyMPtoPDFconversion=\toks37
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+\everyMPtoPDFconversion=\toks34
+) (C:\Users\Nini\Documents\LaTeX\tex\latex\oberdiek\epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\oberdiek\grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -477,10 +497,10 @@ G,.JBIG2,.JB2,.eps]
 \AtBeginShipoutBox=\box29
 Package hyperref Info: Link coloring OFF on input line 52.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\hyperref\nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+(C:\Users\Nini\Documents\LaTeX\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count137
@@ -528,24 +548,25 @@ LaTeX Info: Redefining \nameref on input line 52.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<logoUEVE.png, id=63, 301.125pt x 302.12875pt>
+<logoUEVE.png, id=55, 301.125pt x 302.12875pt>
 File: logoUEVE.png Graphic file (type png)
  <use logoUEVE.png>
 Package pdftex.def Info: logoUEVE.png used on input line 71.
 (pdftex.def)             Requested size: 105.39532pt x 105.74664pt.
 LaTeX Font Info:    Try loading font information for U+msa on input line 77.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 77.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./logoUEVE.png>] (templat
-e_stage_L3.toc
+{C:/Users/Nini/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./logoUEVE.p
+ng>]
+(template_stage_L3.toc
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -595,7 +616,7 @@ or \DeclareInputMath before using this key.
 
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 155.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+(C:\Users\Nini\Documents\LaTeX\tex\latex\base\t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 
@@ -641,15 +662,165 @@ l.189 ... avons commencé par créer un logo pour l’
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-[4] (template_stage_L3.bbl
+<diagram_passer_commande.png, id=96, 830.10126pt x 884.30376pt>
+File: diagram_passer_commande.png Graphic file (type png)
+
+<use diagram_passer_commande.png>
+Package pdftex.def Info: diagram_passer_commande.png used on input line 193.
+(pdftex.def)             Requested size: 830.09924pt x 884.3016pt.
+
+Overfull \hbox (317.94962pt too wide) in paragraph at lines 193--194
+ [] 
+ []
+
+[4]
+Overfull \vbox (153.06577pt too high) has occurred while \output is active []
+
+
+[5 <./diagram_passer_commande.png (PNG copy)>]
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.196 ...e de séquences illustre les actions de l’
+                                                  utilisateur lorsqu’il cons...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.196 ...stre les actions de l’utilisateur lorsqu’
+                                                  il consulte le site de ven...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.196 ...e le site de vente de la recherche jusqu’
+                                                  à l’acceptation du paiement.
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.196 ... site de vente de la recherche jusqu’à l’
+                                                  acceptation du paiement.
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+<Use_Case_diagram_site_web.png, id=105, 782.925pt x 416.55624pt>
+File: Use_Case_diagram_site_web.png Graphic file (type png)
+
+<use Use_Case_diagram_site_web.png>
+Package pdftex.def Info: Use_Case_diagram_site_web.png used on input line 199.
+(pdftex.def)             Requested size: 782.9231pt x 416.55522pt.
+
+Overfull \hbox (270.77347pt too wide) in paragraph at lines 199--200
+ [] 
+ []
+
+<gestion_de_stocks_Class_diagram.png, id=106, 1059.96pt x 1017.8025pt>
+File: gestion_de_stocks_Class_diagram.png Graphic file (type png)
+
+<use gestion_de_stocks_Class_diagram.png>
+Package pdftex.def Info: gestion_de_stocks_Class_diagram.png used on input line
+ 208.
+(pdftex.def)             Requested size: 1059.95741pt x 1017.80003pt.
+
+Overfull \hbox (547.80779pt too wide) in paragraph at lines 208--209
+ [] 
+ []
+
+[6 <./Use_Case_diagram_site_web.png (PNG copy)>] [7]
+Overfull \vbox (319.23431pt too high) has occurred while \output is active []
+
+
+[8 <./gestion_de_stocks_Class_diagram.png (PNG copy)>]
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.211 ... principales. Trois classes permettant d’
+                                                  effectuer des requêtes SQL...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+<Use_Case_diagram_logiciel.png, id=120, 735.74875pt x 436.63126pt>
+File: Use_Case_diagram_logiciel.png Graphic file (type png)
+
+<use Use_Case_diagram_logiciel.png>
+Package pdftex.def Info: Use_Case_diagram_logiciel.png used on input line 214.
+(pdftex.def)             Requested size: 735.74695pt x 436.63019pt.
+
+Overfull \hbox (223.59732pt too wide) in paragraph at lines 214--215
+ [] 
+ []
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.217 ...mme illustre les actions possibles sur l’
+                                                  application pour l’entrepr...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.217 ...tions possibles sur l’application pour l’
+                                                  entrepreneur.
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+[9 <./Use_Case_diagram_logiciel.png (PNG copy)>] (template_stage_L3.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [5
+) [10
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 223.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 223.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 248.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 248.
  (template_stage_L3.aux
 ! Missing \endcsname inserted.
 <to be read again> 
@@ -680,51 +851,39 @@ l.45 ...e gestion de commandes}{subsection.3.3}{}}
 I'm ignoring this, since I wasn't doing a \csname.
 
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 223.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 223.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 248.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 248.
+Package rerunfilecheck Info: File `template_stage_L3.out' has not changed.
+(rerunfilecheck)             Checksum: EE0C4E28498CD62D579B520408098965;948.
 
-
-Package rerunfilecheck Warning: File `template_stage_L3.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `template_stage_L3.out':
-(rerunfilecheck)             Before: 22AC79F82E487563E4C27279EFE98155;1062
-(rerunfilecheck)             After:  EE0C4E28498CD62D579B520408098965;948.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 223.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 248.
  ) 
 Here is how much of TeX's memory you used:
- 8658 strings out of 493323
- 121834 string characters out of 3139066
- 235275 words of memory out of 3000000
- 12048 multiletter control sequences out of 15000+200000
+ 8634 strings out of 493328
+ 122124 string characters out of 3138291
+ 234205 words of memory out of 3000000
+ 12012 multiletter control sequences out of 15000+200000
  17021 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,7n,35p,350b,423s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{appendix.B} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{appendix.A} has been referenced but does not exist,
- replaced by a fixed one
-
- <C:\Users\Jenni\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ec
-tt1095.pk> <C:\Users\Jenni\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
-\dpi600\ecbx1200.pk> <C:\Users\Jenni\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\j
-knappen\ec\dpi600\ecbx1095.pk> <C:\Users\Jenni\AppData\Local\MiKTeX\2.9\fonts\p
-k\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Jenni\AppData\Local\MiKTeX\2
-.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Users\Jenni\AppData\Loca
-l\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Jenni\Ap
-pData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\User
-s\Jenni\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk
-> <C:\Users\Jenni\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
-crm1095.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on template_stage_L3.pdf (5 pages, 145342 bytes).
+ 28i,7n,35p,350b,449s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Nini\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
+ctt1095.pk> <C:\Users\Nini\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
+\dpi600\ecbx1200.pk> <C:\Users\Nini\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
+nappen\ec\dpi600\ecbx1095.pk> <C:\Users\Nini\AppData\Local\MiKTeX\2.9\fonts\pk\
+ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Nini\AppData\Local\MiKTeX\2.9\
+fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Users\Nini\AppData\Local\Mi
+KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Nini\AppData
+\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\Nin
+i\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk> <C:\
+Users\Nini\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095
+.pk><C:/Users/Nini/Documents/LaTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:
+/Users/Nini/Documents/LaTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on template_stage_L3.pdf (10 pages, 339497 bytes).
 PDF statistics:
- 418 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 434 PDF objects out of 1000 (max. 8388607)
+ 26 named destinations out of 1000 (max. 500000)
+ 130 words of extra memory for PDF output out of 10000 (max. 10000000)
 
