@@ -6,8 +6,8 @@
 \contentsline {subsection}{\numberline {2.3}Probl\'ematique}{3}{subsection.2.3}
 \contentsline {section}{\numberline {3}Contexte du projet}{3}{section.3}
 \contentsline {subsection}{\numberline {3.1}Pr\'esentation de l'entreprise Autour de la Moto}{3}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Mise en place du site de vente en ligne}{3}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Pr\'esentation de l\@inpenc@undefined@ {latin1}application de gestion de commandes}{4}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.2}Mise en place du site de vente en ligne}{4}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Pr\'esentation de l'application de gestion de commandes}{4}{subsection.3.3}
 \contentsline {section}{\numberline {4}Travaux r\'ealis\'es}{4}{section.4}
 \contentsline {subsection}{\numberline {4.1}R\'ealisation d'un site de vente en ligne}{4}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}R\'ealisation d'une application de gestion de commandes}{8}{subsection.4.2}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.6.16)  15 AUG 2017 11:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.6.16)  15 AUG 2017 11:54
 entering extended mode
 **./template_stage_L3.tex
 (template_stage_L3.tex
@@ -633,43 +633,30 @@ l.161 ...e d'utilisation car l'autoentrepreneur n’
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.173 ...ntreprise voit le jour en mars 2016  et œ
+                                                  uvre au quotidien pour con...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
 [3
 
-]
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.180 ...de l’application de gestion de commandes}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.189 ... avons commencé par créer un logo pour l’
-                                                  entreprise.\newline
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-<diagram_passer_commande.png, id=96, 830.10126pt x 884.30376pt>
+] <diagram_passer_commande.png, id=96, 830.10126pt x 884.30376pt>
 File: diagram_passer_commande.png Graphic file (type png)
 
 <use diagram_passer_commande.png>
-Package pdftex.def Info: diagram_passer_commande.png used on input line 193.
+Package pdftex.def Info: diagram_passer_commande.png used on input line 199.
 (pdftex.def)             Requested size: 830.09924pt x 884.3016pt.
 
-Overfull \hbox (317.94962pt too wide) in paragraph at lines 193--194
+Overfull \hbox (317.94962pt too wide) in paragraph at lines 199--200
  [] 
  []
 
@@ -686,35 +673,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.196 ...e de séquences illustre les actions de l’
-                                                  utilisateur lorsqu’il cons...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.196 ...stre les actions de l’utilisateur lorsqu’
-                                                  il consulte le site de ven...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.196 ...e le site de vente de la recherche jusqu’
+l.202 ...e le site de vente de la recherche jusqu’
                                                   à l’acceptation du paiement.
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -727,7 +686,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.196 ... site de vente de la recherche jusqu’à l’
+l.202 ... site de vente de la recherche jusqu’à l’
                                                   acceptation du paiement.
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -736,10 +695,10 @@ or \DeclareInputMath before using this key.
 File: Use_Case_diagram_site_web.png Graphic file (type png)
 
 <use Use_Case_diagram_site_web.png>
-Package pdftex.def Info: Use_Case_diagram_site_web.png used on input line 199.
+Package pdftex.def Info: Use_Case_diagram_site_web.png used on input line 205.
 (pdftex.def)             Requested size: 782.9231pt x 416.55522pt.
 
-Overfull \hbox (270.77347pt too wide) in paragraph at lines 199--200
+Overfull \hbox (270.77347pt too wide) in paragraph at lines 205--206
  [] 
  []
 
@@ -748,10 +707,10 @@ File: gestion_de_stocks_Class_diagram.png Graphic file (type png)
 
 <use gestion_de_stocks_Class_diagram.png>
 Package pdftex.def Info: gestion_de_stocks_Class_diagram.png used on input line
- 208.
+ 214.
 (pdftex.def)             Requested size: 1059.95741pt x 1017.80003pt.
 
-Overfull \hbox (547.80779pt too wide) in paragraph at lines 208--209
+Overfull \hbox (547.80779pt too wide) in paragraph at lines 214--215
  [] 
  []
 
@@ -768,7 +727,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.211 ... principales. Trois classes permettant d’
+l.217 ... principales. Trois classes permettant d’
                                                   effectuer des requêtes SQL...
 
 You need to provide a definition with \DeclareInputText 
@@ -778,10 +737,10 @@ or \DeclareInputMath before using this key.
 File: Use_Case_diagram_logiciel.png Graphic file (type png)
 
 <use Use_Case_diagram_logiciel.png>
-Package pdftex.def Info: Use_Case_diagram_logiciel.png used on input line 214.
+Package pdftex.def Info: Use_Case_diagram_logiciel.png used on input line 222.
 (pdftex.def)             Requested size: 735.74695pt x 436.63019pt.
 
-Overfull \hbox (223.59732pt too wide) in paragraph at lines 214--215
+Overfull \hbox (223.59732pt too wide) in paragraph at lines 222--223
  [] 
  []
 
@@ -793,7 +752,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.217 ...mme illustre les actions possibles sur l’
+l.225 ...mme illustre les actions possibles sur l’
                                                   application pour l’entrepr...
 
 You need to provide a definition with \DeclareInputText 
@@ -807,7 +766,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.217 ...tions possibles sur l’application pour l’
+l.225 ...tions possibles sur l’application pour l’
                                                   entrepreneur.
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -819,56 +778,33 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 ) [10
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 248.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 248.
- (template_stage_L3.aux
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.45 ...e gestion de commandes}{subsection.3.3}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 256.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 256.
+ (template_stage_L3.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 256.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 256.
 
 
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
+Package rerunfilecheck Warning: File `template_stage_L3.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.45 ...e gestion de commandes}{subsection.3.3}{}}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-! Extra \endcsname.
-\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
-                                                  \def \bbl@tempb {#3}\@safe...
-l.45 ...e gestion de commandes}{subsection.3.3}{}}
-                                                  
-I'm ignoring this, since I wasn't doing a \csname.
-
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 248.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 248.
-Package rerunfilecheck Info: File `template_stage_L3.out' has not changed.
-(rerunfilecheck)             Checksum: EE0C4E28498CD62D579B520408098965;948.
-
+Package rerunfilecheck Info: Checksums for `template_stage_L3.out':
+(rerunfilecheck)             Before: EE0C4E28498CD62D579B520408098965;948
+(rerunfilecheck)             After:  3F6686CD9102F8C7E580819B6B16338C;949.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 248.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 256.
  ) 
 Here is how much of TeX's memory you used:
- 8634 strings out of 493328
- 122124 string characters out of 3138291
+ 8635 strings out of 493328
+ 122183 string characters out of 3138291
  234205 words of memory out of 3000000
- 12012 multiletter control sequences out of 15000+200000
+ 12013 multiletter control sequences out of 15000+200000
  17021 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,7n,35p,350b,449s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28i,7n,35p,403b,449s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Nini\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
 ctt1095.pk> <C:\Users\Nini\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
 \dpi600\ecbx1200.pk> <C:\Users\Nini\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
@@ -881,7 +817,7 @@ i\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk> <C:\
 Users\Nini\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095
 .pk><C:/Users/Nini/Documents/LaTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:
 /Users/Nini/Documents/LaTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on template_stage_L3.pdf (10 pages, 339497 bytes).
+Output written on template_stage_L3.pdf (10 pages, 340260 bytes).
 PDF statistics:
  434 PDF objects out of 1000 (max. 8388607)
  26 named destinations out of 1000 (max. 500000)
