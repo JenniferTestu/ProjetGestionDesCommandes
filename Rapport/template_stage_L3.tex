@@ -22,6 +22,8 @@
 \usepackage{hyperref}
 \usepackage{url}
 \usepackage{geometry}
+\usepackage{float}
+\usepackage[section]{placeins}
 
 
 
@@ -157,7 +159,7 @@ Puis nous ferons un bilan du travail final avant de conclure.
 	\item Photoshop : pour la création d'un logo
 \end{itemize}
 
-\noindent \newline Lien Git : \url{http://www.latex-project.org/}
+\noindent \newline Lien Git : \url{https://github.com/Jenni91/ProjetGestionDesCommandes/}
 
 
 \subsection{Problématique}
@@ -181,6 +183,10 @@ Nous avons décidé d'appliquer le modèle en spirale pour la gestion du projet, pe
 \end{center}
 \caption{Logo que nous avons créé pour l'entreprise}
 \end{figure}
+
+\noindent Autour de la moto est un distributeur de vêtements et d'accessoires motard, moto pour hommes femmes et enfants (vêtements, bijoux, idées cadeaux). \newline
+Animée par la passion de la moto, cette entreprise voit le jour en mars 2016 et oeuvre au quotidien pour conseiller et accompagner les motards et scootéristes. Parce qu'être motard est aussi une histoire de style, Autour de la moto propose des produits de qualité, et des frais de port basés sur le coût postal réel, que ce soit pour la France ou l'étranger.\newline
+L'entreprise essaie d'avoir une gamme variée pour satisfaire au mieux sa clientèle.
 
 \subsection{Mise en place du site de vente en ligne}
 \label{sub:Mise en place du site de vente en ligne}
@@ -210,37 +216,37 @@ Le site et l'application de gestion sont liés par une base de données, ainsi cha
 Le site de vente a été réalisé en PHP, HTML et CSS. Les pages sont sous forme de PHP nous permettant ainsi de communiquer avec la base de données.\newline
 Afin d'effectuer nos tests de base de données nous avons utilisé WampServeur.
 
-\begin{figure}[!h]
+\begin{figure}[!htb]
 \begin{center}
-      \includegraphics[width=7.5in]{diagram_passer_commande.png}
+      \includegraphics[width=7in]{diagram_passer_commande.png}
 \end{center}
 \caption{Diagramme d'activité lors du passage d'une commande de la part d'un client sur le site}
+\vskip 0.5cm
+\noindent Le diagramme de séquences illustre les actions de l'utilisateur lorsqu'il consulte le site de vente de la recherche jusqu'à l'acceptation du paiement.
 \end{figure}
 
-\noindent Le diagramme de séquences illustre les actions de l'utilisateur lorsqu'il consulte le site de vente de la recherche jusqu'à l'acceptation du paiement.
-
-\begin{figure}[!h]
+\begin{figure}
 \begin{center}
       \includegraphics[width=7.5in]{Use_Case_diagram_site_web.png}
 \end{center}
 \caption{Cas d'utilisation du site}
-\end{figure}
-
+\vskip 0.5cm
 \noindent Ce diagramme illustre toutes les actions possibles sur le site par un client.
+\end{figure}
 
 \subsection{Réalisation d'une application de gestion de commandes}
 \label{sub:Réalisation d'une application de gestion de commandes}
 
-\begin{figure}[h!]
-\begin{center}
-      \includegraphics[width=7.5in]{gestion_de_stocks_Class_diagram.png}
-\end{center}
-\caption{Diagramme de classe de l'application Java}
-\end{figure}
-
+\begin{figure}
 \noindent L'application de gestion de commandes est composée de quatre classes principales. Trois classes permettant d'effectuer des requêtes SQL utilisent les objets des classes principales.\newline
 Cette application permet de consulter les commandes à traiter au fur à mesure que les commandes sont passées sur le site. Elle permet également de voir les commandes déjà traitées. Les listes des fournisseurs et des clients sont également disponibles. \newline
 Enfin, il est possible de voir la liste des stocks ainsi que les modifier.
+\vskip 0.5cm
+\begin{center}
+      \includegraphics[width=6in]{gestion_de_stocks_Class_diagram.png}
+\end{center}
+\caption{Diagramme de classe de l'application Java}
+\end{figure}
 
 \vskip 1cm
 
@@ -516,9 +522,9 @@ deleteImage & Boolean & public & id : Integer & Supprimer l'image d'un produit\\
       \includegraphics[width=7.5in]{Use_Case_diagram_logiciel.png}
 \end{center}
 \caption{Cas d'utilisation de l'application Java}
-\end{figure}
 
 \noindent Ce diagramme illustre les actions possibles sur l'application pour l'entrepreneur.
+\end{figure}
 
 \clearpage
 
