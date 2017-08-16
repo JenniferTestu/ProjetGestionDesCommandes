@@ -1,3 +1,51 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{Mar11}
+
+\bibitem[als]{als}
+{Alsacreations}.
+\newblock \url{https://www.alsacreations.com/}.
+
+\bibitem[dev]{dev}
+{Developpez.com}.
+\newblock \url{https://www.developpez.com/}.
+
+\bibitem[Dup]{dupont}
+Denis Dupont.
+\newblock {Cours / TD }.
+\newblock \url{http://duponttd.blogspot.fr/}.
+
+\bibitem[Jan10]{nuls}
+VALADE Janet.
+\newblock {\em {PHP et MySQL 5eme Edition Pour les Nuls}}.
+\newblock First Interactive, 2010.
+
+\bibitem[lat]{latex}
+{LATEX Tutorial}.
+\newblock \url{https://www.latex-tutorial.com/}.
+
+\bibitem[Mar11]{resp}
+Ethan Marcotte.
+\newblock {\em {Responsive Web Design}}.
+\newblock Eyrolles, 2011.
+
+\bibitem[op]{op}
+{Openclassroom}.
+\newblock \url{https://openclassrooms.com/}.
+
+\bibitem[RV04]{swing}
+Matthew Robinson and Pavel Vorobiev.
+\newblock {\em {Swing - 2nd Edition}}.
+\newblock Manning, 2004.
+
+\bibitem[sta]{stack}
+{Stackoverflow}.
+\newblock \url{https://stackoverflow.com/}.
+
+\bibitem[w3s]{w3s}
+{W3 Schools}.
+\newblock \url{https://www.w3schools.com/}.
+
+\bibitem[ws]{ws}
+{Wamp Server}.
+\newblock \url{http://www.wampserver.com/}.
 
 \end{thebibliography}

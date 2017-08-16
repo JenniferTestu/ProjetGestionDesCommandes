@@ -23,6 +23,7 @@
 \usepackage{url}
 \usepackage{geometry}
 \usepackage{float}
+\usepackage{hyperref}
 \usepackage[section]{placeins}
 
 
@@ -196,6 +197,69 @@ Nous avons donc décidé de créer un site de vente en ligne qui serait propre à l'
 Avant toute chose, nous avons commencé par un travail de recherche sur le langage PHP que nous n'avions jamais étudié. Ensuite nous avons travaillé sur l'agencement du site pour le rendre le plus simple d'utilisation et le plus efficace possible, en essayant d'intégrer un design agréable à la consultation. \newline
 L'application de gestion permet à l'entreprise de gérer les commandes à traiter, les stocks en ajoutant ou supprimant des produits et consulter la liste des fournisseurs et les produits qui leur sont associés.
 
+\begin{figure}[H]
+    \begin{minipage}[c]{.46\linewidth}
+        \centering
+        \includegraphics[width=9cm]{Site_Accueil.png}
+        \caption{Accueil du site}
+    \end{minipage}
+    \hfill%
+    \begin{minipage}[c]{.46\linewidth}
+        \centering
+        \includegraphics[width=9cm]{Site_Inscrire.png}
+        \caption{Page d'inscription}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+    \begin{minipage}[c]{.46\linewidth}
+        \centering
+        \includegraphics[width=9cm]{Site_Connexion.png}
+        \caption{Connexion à l'espace client}
+    \end{minipage}
+    \hfill%
+    \begin{minipage}[c]{.46\linewidth}
+        \centering
+        \includegraphics[width=9cm]{Site_Espace_client.png}
+        \caption{Espace du client connecté}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+    \begin{minipage}[c]{.46\linewidth}
+        \centering
+        \includegraphics[width=9cm]{Site_FAQ.png}
+        \caption{Page Foire Aux Questions}
+    \end{minipage}
+    \hfill%
+    \begin{minipage}[c]{.46\linewidth}
+        \centering
+        \includegraphics[width=9cm]{Site_Fiche_produit.png}
+        \caption{Page de la fiche d'un produit}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+    \begin{minipage}[c]{.46\linewidth}
+        \centering
+        \includegraphics[width=9cm]{Site_Panier.png}
+        \caption{Page de l'appercu du panier}
+    \end{minipage}
+    \hfill%
+    \begin{minipage}[c]{.46\linewidth}
+        \centering
+        \includegraphics[width=9cm]{Site_Coordonnes.png}
+        \caption{Page des coordonnees du destinataire et payeur}
+    \end{minipage}
+\end{figure}
+\begin{figure}[H]
+    \begin{minipage}[c]{.46\linewidth}
+        \centering
+        \includegraphics[width=9cm]{Site_Paiement.png}
+        \caption{Page du choix du mode de paiement}
+    \end{minipage}
+\end{figure}
+
 \subsection{Présentation de l'application de gestion de commandes}
 \label{sub:Présentation de l'application de gestion de commandes}
 
@@ -203,6 +267,55 @@ L'application de gestion permet à l'entreprise de gérer les commandes à traiter,
 Tout comme le site, nous voulions une application qui soit simple d'utilisation y compris pour une personne n'ayant pas l'habitude de l'informatique.\newline
 Le site et l'application de gestion sont liés par une base de données, ainsi chaque achat de produit sur le site est directement déduit des stocks visibles dans l'application de gestion.
 
+\begin{figure}[H]
+    \begin{minipage}[c]{.46\linewidth}
+        \centering
+        \includegraphics[width=9cm]{App_A_traiter.png}
+        \caption{Onglet des commandes non traité par l'entreprise}
+    \end{minipage}
+    \hfill%
+    \begin{minipage}[c]{.46\linewidth}
+        \centering
+        \includegraphics[width=9cm]{App_Traitee.png}
+        \caption{Onglet des commandes déjà traité par l'entreprise}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+    \begin{minipage}[c]{.46\linewidth}
+        \centering
+        \includegraphics[width=9cm]{App_Stock.png}
+        \caption{Onglet de la gestion des stocks de produit}
+    \end{minipage}
+    \hfill%
+    \begin{minipage}[c]{.46\linewidth}
+        \centering
+        \includegraphics[width=9cm]{App_Gestion_produits.png}
+        \caption{Onglet de gestion des produits (nom, prix, description ...)}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+    \begin{minipage}[c]{.46\linewidth}
+        \centering
+        \includegraphics[width=9cm]{App_Gestion_fourni.png}
+        \caption{Onglet de gestion du cataloque des fournisseurs de l'entreprise}
+    \end{minipage}
+    \hfill%
+    \begin{minipage}[c]{.46\linewidth}
+        \centering
+        \includegraphics[width=9cm]{App_Annuaire_clients.png}
+        \caption{Onglet de l'annuaire des clients de l'entreprise}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+    \begin{minipage}[c]{.46\linewidth}
+        \centering
+        \includegraphics[width=9cm]{App_Gestion_even.png}
+        \caption{Onglet de gestion des événements auxquels l'entreprise participe}
+    \end{minipage}
+\end{figure}
 
 \clearpage
 
@@ -543,7 +656,8 @@ Nous avons atteint notre objectif de mettre à disposition des outils simples d'u
 %%%%%%%%%%%%%%%%%
 % Bibliographie %
 %%%%%%%%%%%%%%%%%
-\bibliography{template_stage_L3.bib}
+\nocite{*}
+\bibliography{template_stage_L3}
 
 \cleardoublepage
 

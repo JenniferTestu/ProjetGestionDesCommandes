@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.6.16)  16 AUG 2017 15:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.6.16)  17 AUG 2017 00:50
 entering extended mode
 **./template_stage_L3.tex
 (template_stage_L3.tex
@@ -393,23 +393,23 @@ Package: placeins 2005/04/18  v 2.2
 (template_stage_L3.aux)
 \openout1 = `template_stage_L3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Info: Redefining \degres on input line 54.
-LaTeX Info: Redefining \dots on input line 54.
-LaTeX Info: Redefining \up on input line 54.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Info: Redefining \degres on input line 55.
+LaTeX Info: Redefining \dots on input line 55.
+LaTeX Info: Redefining \up on input line 55.
 
 (C:\Users\Nini\Documents\LaTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -438,7 +438,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 \AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring OFF on input line 54.
+Package hyperref Info: Link coloring OFF on input line 55.
 
 (C:\Users\Nini\Documents\LaTeX\tex\latex\hyperref\nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -448,9 +448,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count138
 )
-LaTeX Info: Redefining \ref on input line 54.
-LaTeX Info: Redefining \pageref on input line 54.
-LaTeX Info: Redefining \nameref on input line 54.
+LaTeX Info: Redefining \ref on input line 55.
+LaTeX Info: Redefining \pageref on input line 55.
+LaTeX Info: Redefining \nameref on input line 55.
 
 (template_stage_L3.out) (template_stage_L3.out)
 \@outlinefile=\write3
@@ -494,14 +494,14 @@ LaTeX Info: Redefining \nameref on input line 54.
 <logoUEVE.png, id=55, 301.125pt x 302.12875pt>
 File: logoUEVE.png Graphic file (type png)
  <use logoUEVE.png>
-Package pdftex.def Info: logoUEVE.png used on input line 73.
+Package pdftex.def Info: logoUEVE.png used on input line 74.
 (pdftex.def)             Requested size: 105.39532pt x 105.74664pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 79.
+LaTeX Font Info:    Try loading font information for U+msa on input line 80.
 
 (C:\Users\Nini\Documents\LaTeX\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 79.
+LaTeX Font Info:    Try loading font information for U+msb on input line 80.
 
 (C:\Users\Nini\Documents\LaTeX\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -518,7 +518,7 @@ ng>]
 ] [3
 
 ]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 162.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 163.
 
 
 (C:\Users\Nini\Documents\LaTeX\tex\latex\base\t1cmtt.fd
@@ -529,442 +529,713 @@ File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 <logoADLM.png, id=100, 658.1388pt x 370.0224pt>
 File: logoADLM.png Graphic file (type png)
  <use logoADLM.png>
-Package pdftex.def Info: logoADLM.png used on input line 182.
+Package pdftex.def Info: logoADLM.png used on input line 183.
 (pdftex.def)             Requested size: 230.35202pt x 129.50977pt.
- [5
+
+<Site_Accueil.png, id=102, 1028.34187pt x 578.16pt>
+File: Site_Accueil.png Graphic file (type png)
+ <use Site_Accueil.png>
+Package pdftex.def Info: Site_Accueil.png used on input line 203.
+(pdftex.def)             Requested size: 256.0748pt x 143.97504pt.
+
+Overfull \hbox (20.48254pt too wide) in paragraph at lines 203--204
+ [][] 
+ []
+
+<Site_Inscrire.png, id=103, 1028.34187pt x 578.16pt>
+File: Site_Inscrire.png Graphic file (type png)
+ <use Site_Inscrire.png>
+Package pdftex.def Info: Site_Inscrire.png used on input line 209.
+(pdftex.def)             Requested size: 256.0748pt x 143.97504pt.
+
+Overfull \hbox (20.48254pt too wide) in paragraph at lines 209--210
+ [][] 
+ []
+
+<Site_Connexion.png, id=104, 1028.34187pt x 578.16pt>
+File: Site_Connexion.png Graphic file (type png)
+ <use Site_Connexion.png>
+Package pdftex.def Info: Site_Connexion.png used on input line 217.
+(pdftex.def)             Requested size: 256.0748pt x 143.97504pt.
+
+Overfull \hbox (20.48254pt too wide) in paragraph at lines 217--218
+ [][] 
+ []
+
+<Site_Espace_client.png, id=105, 1028.34187pt x 578.16pt>
+File: Site_Espace_client.png Graphic file (type png)
+
+<use Site_Espace_client.png>
+Package pdftex.def Info: Site_Espace_client.png used on input line 223.
+(pdftex.def)             Requested size: 256.0748pt x 143.97504pt.
+
+Overfull \hbox (20.48254pt too wide) in paragraph at lines 223--224
+ [][] 
+ []
+
+[5
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.207 \clearpage
-                 <./logoADLM.png>]
-<diagram_passer_commande.png, id=109, 830.10126pt x 884.30376pt>
-File: diagram_passer_commande.png Graphic file (type png)
-
-<use diagram_passer_commande.png>
-Package pdftex.def Info: diagram_passer_commande.png used on input line 221.
-(pdftex.def)             Requested size: 505.89pt x 538.92526pt.
-
-<Use_Case_diagram_site_web.png, id=110, 782.925pt x 416.55624pt>
-File: Use_Case_diagram_site_web.png Graphic file (type png)
-
-<use Use_Case_diagram_site_web.png>
-Package pdftex.def Info: Use_Case_diagram_site_web.png used on input line 230.
-(pdftex.def)             Requested size: 542.025pt x 288.3966pt.
-
-Overfull \hbox (29.87537pt too wide) in paragraph at lines 230--231
- [] 
- []
-
-[6
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
-s been already used, duplicate ignored
+l.227 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.235 \end{figure}
-                   <./diagram_passer_commande.png (PNG copy)>]
-<gestion_de_stocks_Class_diagram.png, id=116, 1059.96pt x 1017.8025pt>
-File: gestion_de_stocks_Class_diagram.png Graphic file (type png)
+l.227 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+3}) has been already used, duplicate ignored
 
-<use gestion_de_stocks_Class_diagram.png>
-Package pdftex.def Info: gestion_de_stocks_Class_diagram.png used on input line
- 246.
-(pdftex.def)             Requested size: 433.62pt x 416.3699pt.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.227 
+       <./logoADLM.png> <./Site_Accueil.png> <./Site_Inscrire.png>]
+<Site_FAQ.png, id=115, 1028.34187pt x 578.16pt>
+File: Site_FAQ.png Graphic file (type png)
+ <use Site_FAQ.png>
+Package pdftex.def Info: Site_FAQ.png used on input line 231.
+(pdftex.def)             Requested size: 256.0748pt x 143.97504pt.
 
-Underfull \hbox (badness 1484) in paragraph at lines 259--260
-[]|\T1/cmr/m/n/10.95 Nom de la per-
+Overfull \hbox (20.48254pt too wide) in paragraph at lines 231--232
+ [][] 
  []
 
+<Site_Fiche_produit.png, id=116, 1028.34187pt x 578.16pt>
+File: Site_Fiche_produit.png Graphic file (type png)
 
-Underfull \hbox (badness 2617) in paragraph at lines 263--264
-[]|\T1/cmr/m/n/10.95 Adresse de ré-si-
+<use Site_Fiche_produit.png>
+Package pdftex.def Info: Site_Fiche_produit.png used on input line 237.
+(pdftex.def)             Requested size: 256.0748pt x 143.97504pt.
+
+Overfull \hbox (20.48254pt too wide) in paragraph at lines 237--238
+ [][] 
  []
 
+<Site_Panier.png, id=117, 1028.34187pt x 578.16pt>
+File: Site_Panier.png Graphic file (type png)
+ <use Site_Panier.png>
+Package pdftex.def Info: Site_Panier.png used on input line 245.
+(pdftex.def)             Requested size: 256.0748pt x 143.97504pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--281
-[]|\T1/cmr/m/n/10.95 N$[]$ d'iden-ti-fiant
+Overfull \hbox (20.48254pt too wide) in paragraph at lines 245--246
+ [][] 
  []
 
+<Site_Coordonnes.png, id=118, 1028.34187pt x 578.16pt>
+File: Site_Coordonnes.png Graphic file (type png)
 
-Underfull \hbox (badness 2753) in paragraph at lines 282--283
-[]|\T1/cmr/m/n/10.95 Mail de contact
+<use Site_Coordonnes.png>
+Package pdftex.def Info: Site_Coordonnes.png used on input line 251.
+(pdftex.def)             Requested size: 256.0748pt x 143.97504pt.
+
+Overfull \hbox (20.48254pt too wide) in paragraph at lines 251--252
+ [][] 
  []
 
+<Site_Paiement.png, id=119, 1028.34187pt x 578.16pt>
+File: Site_Paiement.png Graphic file (type png)
+ <use Site_Paiement.png>
+Package pdftex.def Info: Site_Paiement.png used on input line 258.
+(pdftex.def)             Requested size: 256.0748pt x 143.97504pt.
 
-Underfull \hbox (badness 1490) in paragraph at lines 284--285
-[]|\T1/cmr/m/n/10.95 N$[]$ de té-lé-phone
+Overfull \hbox (20.48254pt too wide) in paragraph at lines 258--259
+ [][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
-[]|\T1/cmr/m/n/10.95 N$[]$ d'iden-ti-fiant
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 309--310
-[]|\T1/cmr/m/n/10.95 Description du
- []
-
-
-Underfull \hbox (badness 5533) in paragraph at lines 315--316
-[]|\T1/cmr/m/n/10.95 Date à la-quelle
- []
-
-
-Underfull \hbox (badness 1033) in paragraph at lines 315--316
-\T1/cmr/m/n/10.95 le pro-duit a été
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 317--318
-[]|\T1/cmr/m/n/10.95 Image re-pré-sen-
- []
-
-
-Overfull \hbox (4.6469pt too wide) in paragraph at lines 319--319
-[]|\T1/cmr/m/n/10.95 List<Fournisseur>| 
- []
-
-
-Underfull \hbox (badness 2608) in paragraph at lines 319--320
-\T1/cmr/m/n/10.95 se ré-ap-pro-vi-sion-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 334--335
-[]|\T1/cmr/m/n/10.95 N$[]$ d'iden-ti-fiant
- []
-
-
-Underfull \hbox (badness 4927) in paragraph at lines 338--339
-\T1/cmr/m/n/10.95 des-tiné la com-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 342--343
-[]|\T1/cmr/m/n/10.95 Mode de paie-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 342--343
-\T1/cmr/m/n/10.95 ment de la
- []
-
-
-Underfull \hbox (badness 1043) in paragraph at lines 344--345
-\T1/cmr/m/n/10.95 com-mande a été
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 346--347
-\T1/cmr/m/n/10.95 com-mande par
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 348--349
-\T1/cmr/m/n/10.95 com-po-sant la
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 363--364
-[]|\T1/cmr/m/n/10.95 N$[]$ d'iden-ti-fiant
- []
-
-
-Underfull \hbox (badness 2753) in paragraph at lines 369--370
-[]|\T1/cmr/m/n/10.95 Mail de contact
- []
-
-
-Underfull \hbox (badness 1490) in paragraph at lines 371--372
-[]|\T1/cmr/m/n/10.95 N$[]$ de té-lé-phone
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--387
-[]|\T1/cmr/m/n/10.95 N$[]$ d'iden-ti-fiant
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 390--391
-[]|\T1/cmr/m/n/10.95 Descriptif de
- []
-
-
-Underfull \hbox (badness 1845) in paragraph at lines 405--406
-[]|\T1/cmr/m/n/10.95 Donner le client
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 405--406
-\T1/cmr/m/n/10.95 cor-res-pon-dant à
- []
-
-
-Overfull \hbox (2.40283pt too wide) in paragraph at lines 422--422
-[]|\T1/cmr/m/n/10.95 List<Evenement>| 
- []
-
-
-Underfull \hbox (badness 1596) in paragraph at lines 424--425
-[]|\T1/cmr/m/n/10.95 Créer un nou-vel
- []
-
-
-Overfull \hbox (4.6469pt too wide) in paragraph at lines 443--443
-[]|\T1/cmr/m/n/10.95 List<Fournisseur>| 
- []
-
-
-Underfull \hbox (badness 2005) in paragraph at lines 443--444
-\T1/cmr/m/n/10.95 tous les four-nis-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 449--450
-[]|\T1/cmr/m/n/10.95 Supprimer un
- []
-
-
-Overfull \hbox (3.76059pt too wide) in paragraph at lines 464--464
-[]|\T1/cmr/m/n/10.95 List<Commande>| 
- []
-
-
-Underfull \hbox (badness 5563) in paragraph at lines 464--465
-\T1/cmr/m/n/10.95 toutes les com-
- []
-
-
-Overfull \hbox (3.76059pt too wide) in paragraph at lines 466--466
-[]|\T1/cmr/m/n/10.95 List<Commande>| 
- []
-
-
-Underfull \hbox (badness 5563) in paragraph at lines 466--467
-\T1/cmr/m/n/10.95 toutes les com-
- []
-
-
-Overfull \hbox (3.76059pt too wide) in paragraph at lines 470--470
-[]|\T1/cmr/m/n/10.95 List<Commande>| 
- []
-
-
-Underfull \hbox (badness 5563) in paragraph at lines 470--471
-\T1/cmr/m/n/10.95 toutes les com-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 472--473
-[]|\T1/cmr/m/n/10.95 Supprimer une
- []
-
-
-Overfull \hbox (14.28659pt too wide) in paragraph at lines 487--487
-[]|\T1/cmr/m/n/10.95 findAllByCommande| 
- []
-
-
-Underfull \hbox (badness 7451) in paragraph at lines 487--488
-[]|\T1/cmr/m/n/10.95 Donner la liste
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 487--488
-\T1/cmr/m/n/10.95 des pro-duits
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 495--496
-[]|\T1/cmr/m/n/10.95 Supprimer un
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 497--498
-[]|\T1/cmr/m/n/10.95 Donner l'image
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 503--504
-[]|\T1/cmr/m/n/10.95 Supprimer le
- []
-
-
-Underfull \hbox (badness 4608) in paragraph at lines 503--504
-\T1/cmr/m/n/10.95 stock d'un pro-
- []
-
-
-Overfull \hbox (6.01303pt too wide) in paragraph at lines 505--505
-[]|\T1/cmr/m/n/10.95 findAllFournisseurs| 
- []
-
-
-Overfull \hbox (4.6469pt too wide) in paragraph at lines 505--505
-[]|\T1/cmr/m/n/10.95 List<Fournisseur>| 
- []
-
-
-Overfull \hbox (1.47882pt too wide) in paragraph at lines 507--507
-[]|\T1/cmr/m/n/10.95 deleteFournisseurs| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 507--508
-[]|\T1/cmr/m/n/10.95 Supprimer un
- []
-
-
-Underfull \hbox (badness 5203) in paragraph at lines 507--508
-\T1/cmr/m/n/10.95 four-nis-seur as-so-
- []
-
-
-Overfull \hbox (2.08327pt too wide) in paragraph at lines 509--509
-[]|\T1/cmr/m/n/10.95 createFournisseurs| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 511--512
-[]|\T1/cmr/m/n/10.95 Ajouter l'image
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 513--514
-[]|\T1/cmr/m/n/10.95 Supprimer
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 513--514
-\T1/cmr/m/n/10.95 l'image d'un
- []
-
-<Use_Case_diagram_logiciel.png, id=117, 735.74875pt x 436.63126pt>
-File: Use_Case_diagram_logiciel.png Graphic file (type png)
-
-<use Use_Case_diagram_logiciel.png>
-Package pdftex.def Info: Use_Case_diagram_logiciel.png used on input line 522.
-(pdftex.def)             Requested size: 542.025pt x 321.68962pt.
-
-Overfull \hbox (29.87537pt too wide) in paragraph at lines 522--523
- [] 
- []
-
-[7pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) 
+[6pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.529 \clearpage
-                 <./Use_Case_diagram_site_web.png (PNG copy)>] [8pdfTeX warning
- (ext4): destination with the same identifier (name{figure.4}) has been already
- used, duplicate ignored
+l.262 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.529 \clearpage
+l.262 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.262 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.262 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.262 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.262 
+       <./Site_Connexion.png> <./Site_Espace_client.png> <./Site_FAQ.png> <./Si
+te_Fiche_produit.png> <./Site_Panier.png> <./Site_Coordonnes.png>]
+<App_A_traiter.png, id=130, 1028.34187pt x 555.57562pt>
+File: App_A_traiter.png Graphic file (type png)
+
+<use App_A_traiter.png>
+Package pdftex.def Info: App_A_traiter.png used on input line 273.
+(pdftex.def)             Requested size: 256.0748pt x 138.351pt.
+
+Overfull \hbox (20.48254pt too wide) in paragraph at lines 273--274
+ [][] 
+ []
+
+<App_Traitee.png, id=131, 1028.34187pt x 555.57562pt>
+File: App_Traitee.png Graphic file (type png)
+ <use App_Traitee.png>
+Package pdftex.def Info: App_Traitee.png used on input line 279.
+(pdftex.def)             Requested size: 256.0748pt x 138.351pt.
+
+Overfull \hbox (20.48254pt too wide) in paragraph at lines 279--280
+ [][] 
+ []
+
+<App_Stock.png, id=132, 1028.34187pt x 555.57562pt>
+File: App_Stock.png Graphic file (type png)
+ <use App_Stock.png>
+Package pdftex.def Info: App_Stock.png used on input line 287.
+(pdftex.def)             Requested size: 256.0748pt x 138.351pt.
+
+Overfull \hbox (20.48254pt too wide) in paragraph at lines 287--288
+ [][] 
+ []
+
+<App_Gestion_produits.png, id=133, 1028.34187pt x 555.57562pt>
+File: App_Gestion_produits.png Graphic file (type png)
+
+<use App_Gestion_produits.png>
+Package pdftex.def Info: App_Gestion_produits.png used on input line 293.
+(pdftex.def)             Requested size: 256.0748pt x 138.351pt.
+
+Overfull \hbox (20.48254pt too wide) in paragraph at lines 293--294
+ [][] 
+ []
+
+<App_Gestion_fourni.png, id=134, 1028.34187pt x 555.57562pt>
+File: App_Gestion_fourni.png Graphic file (type png)
+
+<use App_Gestion_fourni.png>
+Package pdftex.def Info: App_Gestion_fourni.png used on input line 301.
+(pdftex.def)             Requested size: 256.0748pt x 138.351pt.
+
+Overfull \hbox (20.48254pt too wide) in paragraph at lines 301--302
+ [][] 
+ []
+
+<App_Annuaire_clients.png, id=135, 1028.34187pt x 555.57562pt>
+File: App_Annuaire_clients.png Graphic file (type png)
+
+<use App_Annuaire_clients.png>
+Package pdftex.def Info: App_Annuaire_clients.png used on input line 307.
+(pdftex.def)             Requested size: 256.0748pt x 138.351pt.
+
+Overfull \hbox (20.48254pt too wide) in paragraph at lines 307--308
+ [][] 
+ []
+
+[7pdfTeX warning (ext4): destination with the same identifier (name{figure.10})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.311 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.311 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.311 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+13}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.311 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.311 
+       <./Site_Paiement.png> <./App_A_traiter.png> <./App_Traitee.png> <./App_S
+tock.png> <./App_Gestion_produits.png>]
+<App_Gestion_even.png, id=150, 1028.34187pt x 555.57562pt>
+File: App_Gestion_even.png Graphic file (type png)
+
+<use App_Gestion_even.png>
+Package pdftex.def Info: App_Gestion_even.png used on input line 315.
+(pdftex.def)             Requested size: 256.0748pt x 138.351pt.
+
+Overfull \hbox (20.48254pt too wide) in paragraph at lines 315--316
+ [][] 
+ []
+
+[8pdfTeX warning (ext4): destination with the same identifier (name{figure.15})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.320 \clearpage
                 pdfTeX warning (ext4): destination with the same identifier (na
-me{figure.5}) has been already used, duplicate ignored
+me{figure.16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.529 \clearpage
-                 <./gestion_de_stocks_Class_diagram.png (PNG copy)>] [9pdfTeX w
-arning (ext4): destination with the same identifier (name{figure.6}) has been a
-lready used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.529 \clearpage
+l.320 \clearpage
                 pdfTeX warning (ext4): destination with the same identifier (na
-me{figure.7}) has been already used, duplicate ignored
+me{figure.17}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.529 \clearpage
-                ] [10pdfTeX warning (ext4): destination with the same identifie
-r (name{figure.8}) has been already used, duplicate ignored
+l.320 \clearpage
+                 <./App_Gestion_fourni.png> <./App_Annuaire_clients.png> <./App
+_Gestion_even.png>]
+<diagram_passer_commande.png, id=161, 830.10126pt x 884.30376pt>
+File: diagram_passer_commande.png Graphic file (type png)
+
+<use diagram_passer_commande.png>
+Package pdftex.def Info: diagram_passer_commande.png used on input line 334.
+(pdftex.def)             Requested size: 505.89pt x 538.92526pt.
+
+<Use_Case_diagram_site_web.png, id=162, 782.925pt x 416.55624pt>
+File: Use_Case_diagram_site_web.png Graphic file (type png)
+
+<use Use_Case_diagram_site_web.png>
+Package pdftex.def Info: Use_Case_diagram_site_web.png used on input line 343.
+(pdftex.def)             Requested size: 542.025pt x 288.3966pt.
+
+Overfull \hbox (29.87537pt too wide) in paragraph at lines 343--344
+ [] 
+ []
+
+[9
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) h
+as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.529 \clearpage
+l.348 \end{figure}
+                   <./diagram_passer_commande.png (PNG copy)>]
+<gestion_de_stocks_Class_diagram.png, id=168, 1059.96pt x 1017.8025pt>
+File: gestion_de_stocks_Class_diagram.png Graphic file (type png)
+
+<use gestion_de_stocks_Class_diagram.png>
+Package pdftex.def Info: gestion_de_stocks_Class_diagram.png used on input line
+ 359.
+(pdftex.def)             Requested size: 433.62pt x 416.3699pt.
+
+Underfull \hbox (badness 1484) in paragraph at lines 372--373
+[]|\T1/cmr/m/n/10.95 Nom de la per-
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 376--377
+[]|\T1/cmr/m/n/10.95 Adresse de ré-si-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 393--394
+[]|\T1/cmr/m/n/10.95 N$[]$ d'iden-ti-fiant
+ []
+
+
+Underfull \hbox (badness 2753) in paragraph at lines 395--396
+[]|\T1/cmr/m/n/10.95 Mail de contact
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 397--398
+[]|\T1/cmr/m/n/10.95 N$[]$ de té-lé-phone
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--413
+[]|\T1/cmr/m/n/10.95 N$[]$ d'iden-ti-fiant
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
+[]|\T1/cmr/m/n/10.95 Description du
+ []
+
+
+Underfull \hbox (badness 5533) in paragraph at lines 428--429
+[]|\T1/cmr/m/n/10.95 Date à la-quelle
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 428--429
+\T1/cmr/m/n/10.95 le pro-duit a été
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 430--431
+[]|\T1/cmr/m/n/10.95 Image re-pré-sen-
+ []
+
+
+Overfull \hbox (4.6469pt too wide) in paragraph at lines 432--432
+[]|\T1/cmr/m/n/10.95 List<Fournisseur>| 
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 432--433
+\T1/cmr/m/n/10.95 se ré-ap-pro-vi-sion-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--448
+[]|\T1/cmr/m/n/10.95 N$[]$ d'iden-ti-fiant
+ []
+
+
+Underfull \hbox (badness 4927) in paragraph at lines 451--452
+\T1/cmr/m/n/10.95 des-tiné la com-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 455--456
+[]|\T1/cmr/m/n/10.95 Mode de paie-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 455--456
+\T1/cmr/m/n/10.95 ment de la
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 457--458
+\T1/cmr/m/n/10.95 com-mande a été
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--460
+\T1/cmr/m/n/10.95 com-mande par
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
+\T1/cmr/m/n/10.95 com-po-sant la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--477
+[]|\T1/cmr/m/n/10.95 N$[]$ d'iden-ti-fiant
+ []
+
+
+Underfull \hbox (badness 2753) in paragraph at lines 482--483
+[]|\T1/cmr/m/n/10.95 Mail de contact
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 484--485
+[]|\T1/cmr/m/n/10.95 N$[]$ de té-lé-phone
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 499--500
+[]|\T1/cmr/m/n/10.95 N$[]$ d'iden-ti-fiant
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--504
+[]|\T1/cmr/m/n/10.95 Descriptif de
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 518--519
+[]|\T1/cmr/m/n/10.95 Donner le client
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 518--519
+\T1/cmr/m/n/10.95 cor-res-pon-dant à
+ []
+
+
+Overfull \hbox (2.40283pt too wide) in paragraph at lines 535--535
+[]|\T1/cmr/m/n/10.95 List<Evenement>| 
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 537--538
+[]|\T1/cmr/m/n/10.95 Créer un nou-vel
+ []
+
+
+Overfull \hbox (4.6469pt too wide) in paragraph at lines 556--556
+[]|\T1/cmr/m/n/10.95 List<Fournisseur>| 
+ []
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 556--557
+\T1/cmr/m/n/10.95 tous les four-nis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 562--563
+[]|\T1/cmr/m/n/10.95 Supprimer un
+ []
+
+
+Overfull \hbox (3.76059pt too wide) in paragraph at lines 577--577
+[]|\T1/cmr/m/n/10.95 List<Commande>| 
+ []
+
+
+Underfull \hbox (badness 5563) in paragraph at lines 577--578
+\T1/cmr/m/n/10.95 toutes les com-
+ []
+
+
+Overfull \hbox (3.76059pt too wide) in paragraph at lines 579--579
+[]|\T1/cmr/m/n/10.95 List<Commande>| 
+ []
+
+
+Underfull \hbox (badness 5563) in paragraph at lines 579--580
+\T1/cmr/m/n/10.95 toutes les com-
+ []
+
+
+Overfull \hbox (3.76059pt too wide) in paragraph at lines 583--583
+[]|\T1/cmr/m/n/10.95 List<Commande>| 
+ []
+
+
+Underfull \hbox (badness 5563) in paragraph at lines 583--584
+\T1/cmr/m/n/10.95 toutes les com-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 585--586
+[]|\T1/cmr/m/n/10.95 Supprimer une
+ []
+
+
+Overfull \hbox (14.28659pt too wide) in paragraph at lines 600--600
+[]|\T1/cmr/m/n/10.95 findAllByCommande| 
+ []
+
+
+Underfull \hbox (badness 7451) in paragraph at lines 600--601
+[]|\T1/cmr/m/n/10.95 Donner la liste
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 600--601
+\T1/cmr/m/n/10.95 des pro-duits
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--609
+[]|\T1/cmr/m/n/10.95 Supprimer un
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--611
+[]|\T1/cmr/m/n/10.95 Donner l'image
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 616--617
+[]|\T1/cmr/m/n/10.95 Supprimer le
+ []
+
+
+Underfull \hbox (badness 4608) in paragraph at lines 616--617
+\T1/cmr/m/n/10.95 stock d'un pro-
+ []
+
+
+Overfull \hbox (6.01303pt too wide) in paragraph at lines 618--618
+[]|\T1/cmr/m/n/10.95 findAllFournisseurs| 
+ []
+
+
+Overfull \hbox (4.6469pt too wide) in paragraph at lines 618--618
+[]|\T1/cmr/m/n/10.95 List<Fournisseur>| 
+ []
+
+
+Overfull \hbox (1.47882pt too wide) in paragraph at lines 620--620
+[]|\T1/cmr/m/n/10.95 deleteFournisseurs| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 620--621
+[]|\T1/cmr/m/n/10.95 Supprimer un
+ []
+
+
+Underfull \hbox (badness 5203) in paragraph at lines 620--621
+\T1/cmr/m/n/10.95 four-nis-seur as-so-
+ []
+
+
+Overfull \hbox (2.08327pt too wide) in paragraph at lines 622--622
+[]|\T1/cmr/m/n/10.95 createFournisseurs| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 624--625
+[]|\T1/cmr/m/n/10.95 Ajouter l'image
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 626--627
+[]|\T1/cmr/m/n/10.95 Supprimer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 626--627
+\T1/cmr/m/n/10.95 l'image d'un
+ []
+
+<Use_Case_diagram_logiciel.png, id=169, 735.74875pt x 436.63126pt>
+File: Use_Case_diagram_logiciel.png Graphic file (type png)
+
+<use Use_Case_diagram_logiciel.png>
+Package pdftex.def Info: Use_Case_diagram_logiciel.png used on input line 635.
+(pdftex.def)             Requested size: 542.025pt x 321.68962pt.
+
+Overfull \hbox (29.87537pt too wide) in paragraph at lines 635--636
+ [] 
+ []
+
+[10pdfTeX warning (ext4): destination with the same identifier (name{figure.19}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.642 \clearpage
+                 <./Use_Case_diagram_site_web.png (PNG copy)>] [11pdfTeX warnin
+g (ext4): destination with the same identifier (name{figure.20}) has been alrea
+dy used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.642 \clearpage
                 pdfTeX warning (ext4): destination with the same identifier (na
-me{figure.9}) has been already used, duplicate ignored
+me{figure.21}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.529 \clearpage
+l.642 \clearpage
+                 <./gestion_de_stocks_Class_diagram.png (PNG copy)>] [12pdfTeX 
+warning (ext4): destination with the same identifier (name{figure.22}) has been
+ already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.642 \clearpage
                 pdfTeX warning (ext4): destination with the same identifier (na
-me{figure.10}) has been already used, duplicate ignored
+me{figure.23}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.529 \clearpage
-                ] [11pdfTeX warning (ext4): destination with the same identifie
-r (name{figure.11}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.529 \clearpage
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{figure.12}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.529 \clearpage
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{figure.13}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.529 \clearpage
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{figure.14}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.529 \clearpage
-                ] [12pdfTeX warning (ext4): destination with the same identifie
-r (name{figure.15}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.529 \clearpage
+l.642 \clearpage
                 ] [13pdfTeX warning (ext4): destination with the same identifie
-r (name{figure.16}) has been already used, duplicate ignored
+r (name{figure.24}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.529 \clearpage
-                 <./Use_Case_diagram_logiciel.png (PNG copy)>] [14
+l.642 \clearpage
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{figure.25}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.642 \clearpage
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{figure.26}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.642 \clearpage
+                ] [14pdfTeX warning (ext4): destination with the same identifie
+r (name{figure.27}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.642 \clearpage
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{figure.28}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.642 \clearpage
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{figure.29}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.642 \clearpage
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{figure.30}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.642 \clearpage
+                ] [15pdfTeX warning (ext4): destination with the same identifie
+r (name{figure.31}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.642 \clearpage
+                ] [16pdfTeX warning (ext4): destination with the same identifie
+r (name{figure.32}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.642 \clearpage
+                 <./Use_Case_diagram_logiciel.png (PNG copy)>] [17
 
 ]
-(template_stage_L3.bbl
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-) [15
+(template_stage_L3.bbl) [18
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 559.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 559.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 673.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 673.
  (template_stage_L3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 559.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 559.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 673.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 673.
 Package rerunfilecheck Info: File `template_stage_L3.out' has not changed.
 (rerunfilecheck)             Checksum: 3F6686CD9102F8C7E580819B6B16338C;949.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 559.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 673.
  ) 
 Here is how much of TeX's memory you used:
- 8736 strings out of 493328
- 123516 string characters out of 3138291
- 276405 words of memory out of 3000000
- 12083 multiletter control sequences out of 15000+200000
+ 8858 strings out of 493328
+ 125621 string characters out of 3138291
+ 276714 words of memory out of 3000000
+ 12159 multiletter control sequences out of 15000+200000
  17697 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  28i,12n,35p,400b,439s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -982,9 +1253,9 @@ Users\Nini\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095
 \ecrm1728.pk><C:/Users/Nini/Documents/LaTeX/fonts/type1/public/amsfonts/cm/cmmi
 8.pfb><C:/Users/Nini/Documents/LaTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 C:/Users/Nini/Documents/LaTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on template_stage_L3.pdf (15 pages, 623679 bytes).
+Output written on template_stage_L3.pdf (18 pages, 3518061 bytes).
 PDF statistics:
- 505 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
- 135 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 617 PDF objects out of 1000 (max. 8388607)
+ 77 named destinations out of 1000 (max. 500000)
+ 215 words of extra memory for PDF output out of 10000 (max. 10000000)
 

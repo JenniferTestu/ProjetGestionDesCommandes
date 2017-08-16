@@ -1,10 +1,3 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: template_stage_L3.aux
 The style file: alpha.bst
-I couldn't open database file template_stage_L3.bib.bib
----line 70 of file template_stage_L3.aux
- : \bibdata{template_stage_L3.bib
- :                               }
-I'm skipping whatever remains of this command
-I found no \citation commands---while reading file template_stage_L3.aux
-I found no database files---while reading file template_stage_L3.aux
-(There were 3 error messages)
+Database file #1: template_stage_L3.bib

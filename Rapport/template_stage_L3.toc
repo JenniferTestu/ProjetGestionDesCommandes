@@ -7,8 +7,8 @@
 \contentsline {section}{\numberline {3}Contexte du projet}{5}{section.3}
 \contentsline {subsection}{\numberline {3.1}Pr\'esentation de l'entreprise Autour de la Moto}{5}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Mise en place du site de vente en ligne}{5}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Pr\'esentation de l'application de gestion de commandes}{5}{subsection.3.3}
-\contentsline {section}{\numberline {4}Travaux r\'ealis\'es}{6}{section.4}
-\contentsline {subsection}{\numberline {4.1}R\'ealisation d'un site de vente en ligne}{6}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}R\'ealisation d'une application de gestion de commandes}{7}{subsection.4.2}
-\contentsline {section}{\numberline {5}Bilan}{14}{section.5}
+\contentsline {subsection}{\numberline {3.3}Pr\'esentation de l'application de gestion de commandes}{7}{subsection.3.3}
+\contentsline {section}{\numberline {4}Travaux r\'ealis\'es}{9}{section.4}
+\contentsline {subsection}{\numberline {4.1}R\'ealisation d'un site de vente en ligne}{9}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}R\'ealisation d'une application de gestion de commandes}{10}{subsection.4.2}
+\contentsline {section}{\numberline {5}Bilan}{17}{section.5}
