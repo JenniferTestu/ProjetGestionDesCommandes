@@ -10,5 +10,5 @@
 \contentsline {subsection}{\numberline {3.3}Pr\'esentation de l'application de gestion de commandes}{5}{subsection.3.3}
 \contentsline {section}{\numberline {4}Travaux r\'ealis\'es}{6}{section.4}
 \contentsline {subsection}{\numberline {4.1}R\'ealisation d'un site de vente en ligne}{6}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}R\'ealisation d'une application de gestion de commandes}{6}{subsection.4.2}
-\contentsline {section}{\numberline {5}Bilan}{15}{section.5}
+\contentsline {subsection}{\numberline {4.2}R\'ealisation d'une application de gestion de commandes}{7}{subsection.4.2}
+\contentsline {section}{\numberline {5}Bilan}{14}{section.5}

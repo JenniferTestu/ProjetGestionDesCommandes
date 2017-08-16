@@ -112,9 +112,9 @@
 \section{Introduction}
 \label{sec:Introduction}
 
-\noindent Etudiantes en L3 MIAGE à l'Université d'Evry Val d'Essonne, nous avions un projet remplaçant le stage obligatoire. Ce projet a pour objectif de mettre en œuvre les connaissances acquises durant les trois années  de licence.\newline
+\noindent Etudiantes en L3 MIAGE à l'Université d'Evry Val d'Essonne, nous avions un projet remplaçant le stage obligatoire. Ce projet a pour objectif de mettre en oeuvre les connaissances acquises durant les trois années  de licence.\newline
 Ce projet consiste en la création d'un site de vente en ligne ainsi qu'une application de gestion de commandes pour l'entreprise Autour de la Moto pour l'autoentrepreneur  Monique Sommaï qui commercialise des produits du monde de la moto (vêtements, accessoires et équipements).\newline
-Le projet a duré le temps de l'été 2017 en commençant le 15 mai, jusqu'à sa présentation orale le 28 août.\newline
+Le projet a duré le temps de l'été 2017 en commençant le 15 mai, jusqu'à sa présentation orale le 29 août.\newline
 Le site de vente en ligne permet à des clients potentiels de consulter la liste des produits ainsi que d'effectuer des achats, tandis que l'application de gestion de commandes permet à l'autoentrepreneur de gérer les commandes à traiter ainsi que ses stocks.\newline
 Premièrement, nous commencerons par présenter le contexte du stage en présentant tout d'abord l'entreprise, puis son activité.\newline
 Par la suite, nous présenterons ce qui a été réalisé dans le cadre de ce projet.
@@ -134,7 +134,11 @@ Puis nous ferons un bilan du travail final avant de conclure.
 \subsection{Contenu}
 \label{sub:Contenu}
 
-\noindent METTRE DIAGRAMMES
+
+\begin{itemize}
+	\item Diagrammes UML et leurs descriptifs dans la partie des travaux réalisés
+	\item Images représentatives du site et de l'application
+\end{itemize}
 
 
 \subsection{Technologies utilisées}
@@ -150,7 +154,7 @@ Puis nous ferons un bilan du travail final avant de conclure.
 	\item Google Chrome et Mozilla Firefox : pour les tests du site
 	\item Git : pour le partage du contenu du projet
 	\item Latex : pour la création du rapport
-	\item Photoshop : pour la création d’un logo
+	\item Photoshop : pour la création d'un logo
 \end{itemize}
 
 \noindent \newline Lien Git : \url{http://www.latex-project.org/}
@@ -159,7 +163,7 @@ Puis nous ferons un bilan du travail final avant de conclure.
 \subsection{Problématique}
 \label{sub:Problématique}
 
-\noindent Le but était d'améliorer le système de vente de l'entreprise qui présentait uniquement ses produits sur les marchés et une page Facebook. Nous avons voulu faire un système simple d'utilisation car l'autoentrepreneur n’est pas adepte des technologies.\newline
+\noindent Le but était d'améliorer le système de vente de l'entreprise qui présentait uniquement ses produits sur les marchés et une page Facebook. Nous avons voulu faire un système simple d'utilisation car l'autoentrepreneur n'est pas adepte des technologies.\newline
 L'application peut être améliorée en fonction des besoins.\newline
 Nous avons décidé d'appliquer le modèle en spirale pour la gestion du projet, permettant de tester  étape par étape, et potentiellement revenir en arrière en cas de besoin de modification d'une étape.
 
@@ -171,17 +175,12 @@ Nous avons décidé d'appliquer le modèle en spirale pour la gestion du projet, pe
 \subsection{Présentation de l'entreprise Autour de la Moto}
 \label{sub:Présentation de l'entreprise Autour de la Moto}
 
-\begin{figure}
+\begin{figure}[!h]
 \begin{center}
       \includegraphics[scale=0.35]{logoADLM.png}
 \end{center}
 \caption{Logo que nous avons créé pour l'entreprise}
 \end{figure}
-
-\noindent Autour de la moto est un distributeur de vêtements et d'accessoires  motard, moto pour hommes femmes et enfants (vêtements, bijoux, idées cadeaux).  \newline
-Animée par la passion de la moto, cette entreprise voit le jour en mars 2016  et œuvre au quotidien pour conseiller et accompagner les motards et scootéristes. Parce qu'être motard est aussi une histoire de style, Autour de la moto propose des produits de qualité, et des frais de port basés sur le coût postal réel, que ce soit pour la France ou l'étranger.  \newline
-L'entreprise essaie d'avoir une gamme variée pour satisfaire au mieux sa clientèle.
-
 
 \subsection{Mise en place du site de vente en ligne}
 \label{sub:Mise en place du site de vente en ligne}
@@ -211,16 +210,16 @@ Le site et l'application de gestion sont liés par une base de données, ainsi cha
 Le site de vente a été réalisé en PHP, HTML et CSS. Les pages sont sous forme de PHP nous permettant ainsi de communiquer avec la base de données.\newline
 Afin d'effectuer nos tests de base de données nous avons utilisé WampServeur.
 
-\begin{figure}
+\begin{figure}[!h]
 \begin{center}
       \includegraphics[width=7.5in]{diagram_passer_commande.png}
 \end{center}
 \caption{Diagramme d'activité lors du passage d'une commande de la part d'un client sur le site}
 \end{figure}
 
-\noindent Le diagramme de séquences illustre les actions de l'utilisateur lorsqu'il consulte le site de vente de la recherche jusqu’à l’acceptation du paiement.
+\noindent Le diagramme de séquences illustre les actions de l'utilisateur lorsqu'il consulte le site de vente de la recherche jusqu'à l'acceptation du paiement.
 
-\begin{figure}
+\begin{figure}[!h]
 \begin{center}
       \includegraphics[width=7.5in]{Use_Case_diagram_site_web.png}
 \end{center}
@@ -232,14 +231,14 @@ Afin d'effectuer nos tests de base de données nous avons utilisé WampServeur.
 \subsection{Réalisation d'une application de gestion de commandes}
 \label{sub:Réalisation d'une application de gestion de commandes}
 
-\begin{figure}
+\begin{figure}[h!]
 \begin{center}
       \includegraphics[width=7.5in]{gestion_de_stocks_Class_diagram.png}
 \end{center}
 \caption{Diagramme de classe de l'application Java}
 \end{figure}
 
-\noindent L'application de gestion de commandes est composée de quatre classes principales. Trois classes permettant d’effectuer des requêtes SQL utilisent les objets des classes principales.\newline
+\noindent L'application de gestion de commandes est composée de quatre classes principales. Trois classes permettant d'effectuer des requêtes SQL utilisent les objets des classes principales.\newline
 Cette application permet de consulter les commandes à traiter au fur à mesure que les commandes sont passées sur le site. Elle permet également de voir les commandes déjà traitées. Les listes des fournisseurs et des clients sont également disponibles. \newline
 Enfin, il est possible de voir la liste des stocks ainsi que les modifier.
 
@@ -378,7 +377,7 @@ tel & String & private & N° de téléphone du fournisseur\\
 \hline
 Intitulé & Type & Visibilité & Explication\\
 \hline
-id & integer & private & N° d’identifiant de l'événement\\
+id & integer & private & N° d'identifiant de l'événement\\
 \hline
 titre & String & private & Titre de l'événement\\
 \hline
@@ -517,10 +516,9 @@ deleteImage & Boolean & public & id : Integer & Supprimer l'image d'un produit\\
       \includegraphics[width=7.5in]{Use_Case_diagram_logiciel.png}
 \end{center}
 \caption{Cas d'utilisation de l'application Java}
-\noindent Ce diagramme illustre les actions possibles sur l’application pour l’entrepreneur.
 \end{figure}
 
-
+\noindent Ce diagramme illustre les actions possibles sur l'application pour l'entrepreneur.
 
 \clearpage
 

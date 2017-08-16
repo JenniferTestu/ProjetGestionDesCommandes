@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.6.16)  15 AUG 2017 16:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=latex 2017.6.16)  16 AUG 2017 14:07
 entering extended mode
 **./template_stage_L3.tex
 (template_stage_L3.tex
@@ -90,21 +90,12 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 (C:\Users\Nini\Documents\LaTeX\tex\latex\graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Driver file: dvips.def on input line 225.
 
-(C:\Users\Nini\Documents\LaTeX\tex\latex\graphics-def\pdftex.def
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-
-(C:\Users\Nini\Documents\LaTeX\tex\generic\oberdiek\infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(C:\Users\Nini\Documents\LaTeX\tex\generic\oberdiek\ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count95
+(C:\Users\Nini\Documents\LaTeX\tex\latex\graphics-def\dvips.def
+File: dvips.def 2016/07/10 v3.1a Driver-dependent file (DPC,SPQR)
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
@@ -128,7 +119,7 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (C:\Users\Nini\Documents\LaTeX\tex\latex\graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
+Package graphics Info: Driver file: dvips.def on input line 99.
 )
 \Gin@req@height=\dimen106
 \Gin@req@width=\dimen107
@@ -153,13 +144,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (C:\Users\Nini\Documents\LaTeX\tex\latex\amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count96
+\inf@bad=\count95
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count97
-\leftroot@=\count98
+\uproot@=\count96
+\leftroot@=\count97
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count99
-\DOTSCASE@=\count100
+\classnum@=\count98
+\DOTSCASE@=\count99
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -168,15 +159,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen110
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count101
-\c@MaxMatrixCols=\count102
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
 \dotsspace@=\muskip10
-\c@parentequation=\count103
-\dspbrk@lvl=\count104
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
 \tag@help=\toks19
-\row@=\count105
-\column@=\count106
-\maxfields@=\count107
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
 \andhelp@=\toks20
 \eqnshift@=\dimen111
 \alignsep@=\dimen112
@@ -236,7 +227,7 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \TX@old@col=\dimen124
 \TX@target=\dimen125
 \TX@delta=\dimen126
-\TX@cols=\count108
+\TX@cols=\count107
 \TX@ftn=\toks31
 )
 (C:\Users\Nini\Documents\LaTeX\tex\latex\hyperref\hyperref.sty
@@ -249,8 +240,8 @@ Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 (C:\Users\Nini\Documents\LaTeX\tex\generic\oberdiek\hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
@@ -269,7 +260,7 @@ Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
@@ -296,13 +287,13 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen127
-\Hy@linkcounter=\count109
-\Hy@pagecounter=\count110
+\Hy@linkcounter=\count108
+\Hy@pagecounter=\count109
 
 (C:\Users\Nini\Documents\LaTeX\tex\latex\hyperref\pd1enc.def
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count111
+\Hy@SavedSpaceFactor=\count110
 
 (C:\Users\Nini\Documents\LaTeX\tex\latex\00miktex\hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -314,7 +305,7 @@ Package hyperref Info: Plain pages OFF on input line 4513.
 Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count112
+\c@Hy@tempcnt=\count111
 
 (C:\Users\Nini\Documents\LaTeX\tex\latex\url\url.sty
 \Urlmuskip=\muskip11
@@ -322,7 +313,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5104.
 \XeTeXLinkMargin=\dimen128
-\Fld@menulength=\count113
+\Fld@menulength=\count112
 \Field@Width=\dimen129
 \Fld@charsize=\dimen130
 Package hyperref Info: Hyper figures OFF on input line 6358.
@@ -334,15 +325,23 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
 LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count114
-\c@Item=\count115
-\c@Hfootnote=\count116
+\Hy@abspage=\count113
+\c@Item=\count114
+\c@Hfootnote=\count115
 )
 
-Package hyperref Message: Driver (autodetected): hpdftex.
+Package hyperref Message: Driver (default): hdvips.
 
-(C:\Users\Nini\Documents\LaTeX\tex\latex\hyperref\hpdftex.def
-File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+(C:\Users\Nini\Documents\LaTeX\tex\latex\hyperref\hdvips.def
+File: hdvips.def 2017/03/14 v6.85a Hyperref driver for dvips
+
+(C:\Users\Nini\Documents\LaTeX\tex\latex\hyperref\pdfmark.def
+File: pdfmark.def 2017/03/14 v6.85a Hyperref definitions for pdfmark specials
+\pdf@docset=\toks32
+\pdf@box=\box28
+\pdf@toks=\toks33
+\pdf@defaulttoks=\toks34
+\HyField@AnnotCount=\count116
 \Fld@listcount=\count117
 \c@bookmark@seq@number=\count118
 
@@ -352,7 +351,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip59
-)
+))
 (C:\Users\Nini\Documents\LaTeX\tex\latex\geometry\geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@cnth=\count119
@@ -366,7 +365,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutheight=\dimen136
 \Gm@layouthoffset=\dimen137
 \Gm@layoutvoffset=\dimen138
-\Gm@dimlist=\toks32
+\Gm@dimlist=\toks35
 
 (C:\Users\Nini\Documents\LaTeX\tex\latex\geometry\geometry.cfg))
 \c@defin=\count122
@@ -399,33 +398,6 @@ LaTeX Font Info:    ... okay on input line 52.
 LaTeX Info: Redefining \degres on input line 52.
 LaTeX Info: Redefining \dots on input line 52.
 LaTeX Info: Redefining \up on input line 52.
-
-(C:\Users\Nini\Documents\LaTeX\tex\context\base\supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count131
-\scratchdimen=\dimen139
-\scratchbox=\box28
-\nofMPsegments=\count132
-\nofMParguments=\count133
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count134
-\MPscratchDim=\dimen140
-\MPnumerator=\count135
-\makeMPintoPDFobject=\count136
-\everyMPtoPDFconversion=\toks34
-) (C:\Users\Nini\Documents\LaTeX\tex\latex\oberdiek\epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(C:\Users\Nini\Documents\LaTeX\tex\latex\oberdiek\grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-)
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-)
 \AtBeginShipoutBox=\box29
 Package hyperref Info: Link coloring OFF on input line 52.
 
@@ -435,7 +407,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (C:\Users\Nini\Documents\LaTeX\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count137
+\c@section@level=\count131
 )
 LaTeX Info: Redefining \ref on input line 52.
 LaTeX Info: Redefining \pageref on input line 52.
@@ -447,9 +419,9 @@ LaTeX Info: Redefining \nameref on input line 52.
 
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: dvips
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -480,14 +452,23 @@ LaTeX Info: Redefining \nameref on input line 52.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<logoUEVE.png, id=55, 301.125pt x 302.12875pt>
-File: logoUEVE.png Graphic file (type png)
- <use logoUEVE.png>
-Package pdftex.def Info: logoUEVE.png used on input line 71.
-(pdftex.def)             Requested size: 105.39532pt x 105.74664pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 77.
 
-(C:\Users\Nini\Documents\LaTeX\tex\latex\amsfonts\umsa.fd
+! LaTeX Error: Cannot determine size of graphic in logoUEVE.png (no BoundingBox
+).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...\includegraphics[scale=0.35]{logoUEVE.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: logoUEVE.png Graphic file (type eps)
+<logoUEVE.png>
+LaTeX Font Info:    Try loading font information for U+msa on input line 77.
+ (C:\Users\Nini\Documents\LaTeX\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 77.
@@ -496,527 +477,421 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 77.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/Users/Nini/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./logoUEVE.p
-ng>]
+]
 (template_stage_L3.toc)
 \tf@toc=\write4
 \openout4 = `template_stage_L3.toc'.
 
  [2
 
-]
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.115 ... Ce projet a pour objectif de mettre en œ
-                                                  uvre les connaissances acq...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[3
+] [3
 
 ]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 160.
 
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.153 	\item Photoshop : pour la création d’
-                                            un logo
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 156.
 
 (C:\Users\Nini\Documents\LaTeX\tex\latex\base\t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
+) [4
 
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
+]
 
-See the inputenc package documentation for explanation.
+! LaTeX Error: Cannot determine size of graphic in logoADLM.png (no BoundingBox
+).
+
+See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.162 ...e d'utilisation car l'autoentrepreneur n’
-                                                  est pas adepte des technol...
+l.180 ...includegraphics[scale=0.35]{logoADLM.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
+File: logoADLM.png Graphic file (type eps)
+<logoADLM.png> [5
 
-[4
+]
 
-] <logoADLM.png, id=100, 658.1388pt x 370.0224pt>
-File: logoADLM.png Graphic file (type png)
- <use logoADLM.png>
-Package pdftex.def Info: logoADLM.png used on input line 176.
-(pdftex.def)             Requested size: 230.35202pt x 129.50977pt.
+! LaTeX Error: Cannot determine size of graphic in diagram_passer_commande.png 
+(no BoundingBox).
 
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
+See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 ...ntreprise voit le jour en mars 2016  et œ
-                                                  uvre au quotidien pour con...
+l.215 ...width=7.5in]{diagram_passer_commande.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[5
-
- <./logoADLM.png>]
-<diagram_passer_commande.png, id=109, 830.10126pt x 884.30376pt>
-File: diagram_passer_commande.png Graphic file (type png)
-
-<use diagram_passer_commande.png>
-Package pdftex.def Info: diagram_passer_commande.png used on input line 216.
-(pdftex.def)             Requested size: 542.025pt x 577.43533pt.
-
-Overfull \hbox (29.87537pt too wide) in paragraph at lines 216--217
- [] 
+File: diagram_passer_commande.png Graphic file (type eps)
+<diagram_passer_commande.png>
+Overfull \hbox (29.87537pt too wide) in paragraph at lines 215--216
+ [][] 
  []
 
 
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
+! LaTeX Error: Cannot determine size of graphic in Use_Case_diagram_site_web.pn
+g (no BoundingBox).
 
-See the inputenc package documentation for explanation.
+See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.221 ...e le site de vente de la recherche jusqu’
-                                                  à l’acceptation du paiement.
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+l.224 ...dth=7.5in]{Use_Case_diagram_site_web.png}
                                                   
-l.221 ... site de vente de la recherche jusqu’à l’
-                                                  acceptation du paiement.
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<Use_Case_diagram_site_web.png, id=110, 782.925pt x 416.55624pt>
-File: Use_Case_diagram_site_web.png Graphic file (type png)
-
-<use Use_Case_diagram_site_web.png>
-Package pdftex.def Info: Use_Case_diagram_site_web.png used on input line 225.
-(pdftex.def)             Requested size: 542.025pt x 288.3966pt.
-
-Overfull \hbox (29.87537pt too wide) in paragraph at lines 225--226
- [] 
- []
-
-<gestion_de_stocks_Class_diagram.png, id=111, 1059.96pt x 1017.8025pt>
-File: gestion_de_stocks_Class_diagram.png Graphic file (type png)
-
-<use gestion_de_stocks_Class_diagram.png>
-Package pdftex.def Info: gestion_de_stocks_Class_diagram.png used on input line
- 237.
-(pdftex.def)             Requested size: 542.025pt x 520.47015pt.
-
-Overfull \hbox (29.87537pt too wide) in paragraph at lines 237--238
- [] 
+File: Use_Case_diagram_site_web.png Graphic file (type eps)
+<Use_Case_diagram_site_web.png>
+Overfull \hbox (29.87537pt too wide) in paragraph at lines 224--225
+ [][] 
  []
 
 
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-See the inputenc package documentation for explanation.
+[6
+
+]
+
+! LaTeX Error: Cannot determine size of graphic in gestion_de_stocks_Class_diag
+ram.png (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.242 ... principales. Trois classes permettant d’
-                                                  effectuer des requêtes SQL...
+l.236 ...5in]{gestion_de_stocks_Class_diagram.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
+File: gestion_de_stocks_Class_diagram.png Graphic file (type eps)
+<gestion_de_stocks_Class_diagram.png>
+Overfull \hbox (29.87537pt too wide) in paragraph at lines 236--237
+ [][] 
+ []
 
 
-Underfull \hbox (badness 1484) in paragraph at lines 254--255
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 253--254
 []|\T1/cmr/m/n/10.95 Nom de la per-
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 258--259
+Underfull \hbox (badness 2617) in paragraph at lines 257--258
 []|\T1/cmr/m/n/10.95 Adresse de ré-si-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
 []|\T1/cmr/m/n/10.95 N$[]$ d'iden-ti-fiant
  []
 
 
-Underfull \hbox (badness 2753) in paragraph at lines 277--278
+Underfull \hbox (badness 2753) in paragraph at lines 276--277
 []|\T1/cmr/m/n/10.95 Mail de contact
  []
 
 
-Underfull \hbox (badness 1490) in paragraph at lines 279--280
+Underfull \hbox (badness 1490) in paragraph at lines 278--279
 []|\T1/cmr/m/n/10.95 N$[]$ de té-lé-phone
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
 []|\T1/cmr/m/n/10.95 N$[]$ d'iden-ti-fiant
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--305
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
 []|\T1/cmr/m/n/10.95 Description du
  []
 
 
-Underfull \hbox (badness 5533) in paragraph at lines 310--311
+Underfull \hbox (badness 5533) in paragraph at lines 309--310
 []|\T1/cmr/m/n/10.95 Date à la-quelle
  []
 
 
-Underfull \hbox (badness 1033) in paragraph at lines 310--311
+Underfull \hbox (badness 1033) in paragraph at lines 309--310
 \T1/cmr/m/n/10.95 le pro-duit a été
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--313
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
 []|\T1/cmr/m/n/10.95 Image re-pré-sen-
  []
 
 
-Overfull \hbox (4.6469pt too wide) in paragraph at lines 314--314
+Overfull \hbox (4.6469pt too wide) in paragraph at lines 313--313
 []|\T1/cmr/m/n/10.95 List<Fournisseur>| 
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 314--315
+Underfull \hbox (badness 2608) in paragraph at lines 313--314
 \T1/cmr/m/n/10.95 se ré-ap-pro-vi-sion-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--330
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
 []|\T1/cmr/m/n/10.95 N$[]$ d'iden-ti-fiant
  []
 
 
-Underfull \hbox (badness 4927) in paragraph at lines 333--334
+Underfull \hbox (badness 4927) in paragraph at lines 332--333
 \T1/cmr/m/n/10.95 des-tiné la com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--338
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
 []|\T1/cmr/m/n/10.95 Mode de paie-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--338
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
 \T1/cmr/m/n/10.95 ment de la
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 339--340
+Underfull \hbox (badness 1043) in paragraph at lines 338--339
 \T1/cmr/m/n/10.95 com-mande a été
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--342
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
 \T1/cmr/m/n/10.95 com-mande par
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 343--344
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
 \T1/cmr/m/n/10.95 com-po-sant la
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 358--359
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
 []|\T1/cmr/m/n/10.95 N$[]$ d'iden-ti-fiant
  []
 
 
-Underfull \hbox (badness 2753) in paragraph at lines 364--365
+Underfull \hbox (badness 2753) in paragraph at lines 363--364
 []|\T1/cmr/m/n/10.95 Mail de contact
  []
 
 
-Underfull \hbox (badness 1490) in paragraph at lines 366--367
+Underfull \hbox (badness 1490) in paragraph at lines 365--366
 []|\T1/cmr/m/n/10.95 N$[]$ de té-lé-phone
  []
 
 
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.381 id & integer & private & N° d’
-                                    identifiant de l'événement\\
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
+[]|\T1/cmr/m/n/10.95 N$[]$ d'iden-ti-fiant
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 385--386
+Underfull \hbox (badness 10000) in paragraph at lines 384--385
 []|\T1/cmr/m/n/10.95 Descriptif de
  []
 
 
-Underfull \hbox (badness 1845) in paragraph at lines 400--401
+Underfull \hbox (badness 1845) in paragraph at lines 399--400
 []|\T1/cmr/m/n/10.95 Donner le client
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
+Underfull \hbox (badness 10000) in paragraph at lines 399--400
 \T1/cmr/m/n/10.95 cor-res-pon-dant à
  []
 
 
-Overfull \hbox (2.40283pt too wide) in paragraph at lines 417--417
+Overfull \hbox (2.40283pt too wide) in paragraph at lines 416--416
 []|\T1/cmr/m/n/10.95 List<Evenement>| 
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 419--420
+Underfull \hbox (badness 1596) in paragraph at lines 418--419
 []|\T1/cmr/m/n/10.95 Créer un nou-vel
  []
 
 
-Overfull \hbox (4.6469pt too wide) in paragraph at lines 438--438
+Overfull \hbox (4.6469pt too wide) in paragraph at lines 437--437
 []|\T1/cmr/m/n/10.95 List<Fournisseur>| 
  []
 
 
-Underfull \hbox (badness 2005) in paragraph at lines 438--439
+Underfull \hbox (badness 2005) in paragraph at lines 437--438
 \T1/cmr/m/n/10.95 tous les four-nis-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 444--445
+Underfull \hbox (badness 10000) in paragraph at lines 443--444
 []|\T1/cmr/m/n/10.95 Supprimer un
  []
 
 
-Overfull \hbox (3.76059pt too wide) in paragraph at lines 459--459
+Overfull \hbox (3.76059pt too wide) in paragraph at lines 458--458
 []|\T1/cmr/m/n/10.95 List<Commande>| 
  []
 
 
-Underfull \hbox (badness 5563) in paragraph at lines 459--460
+Underfull \hbox (badness 5563) in paragraph at lines 458--459
 \T1/cmr/m/n/10.95 toutes les com-
  []
 
 
-Overfull \hbox (3.76059pt too wide) in paragraph at lines 461--461
+Overfull \hbox (3.76059pt too wide) in paragraph at lines 460--460
 []|\T1/cmr/m/n/10.95 List<Commande>| 
  []
 
 
-Underfull \hbox (badness 5563) in paragraph at lines 461--462
+Underfull \hbox (badness 5563) in paragraph at lines 460--461
 \T1/cmr/m/n/10.95 toutes les com-
  []
 
 
-Overfull \hbox (3.76059pt too wide) in paragraph at lines 465--465
+Overfull \hbox (3.76059pt too wide) in paragraph at lines 464--464
 []|\T1/cmr/m/n/10.95 List<Commande>| 
  []
 
 
-Underfull \hbox (badness 5563) in paragraph at lines 465--466
+Underfull \hbox (badness 5563) in paragraph at lines 464--465
 \T1/cmr/m/n/10.95 toutes les com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 467--468
+Underfull \hbox (badness 10000) in paragraph at lines 466--467
 []|\T1/cmr/m/n/10.95 Supprimer une
  []
 
 
-Overfull \hbox (14.28659pt too wide) in paragraph at lines 482--482
-[]|\T1/cmr/m/n/10.95 findAllByCommande| 
+Overfull \hbox (14.28659pt too wide) in paragraph at lines 481--481
+[]|[]\T1/cmr/m/n/10.95 findAllByCommande| 
  []
 
 
-Underfull \hbox (badness 7451) in paragraph at lines 482--483
+Underfull \hbox (badness 7451) in paragraph at lines 481--482
 []|\T1/cmr/m/n/10.95 Donner la liste
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 482--483
+Underfull \hbox (badness 10000) in paragraph at lines 481--482
 \T1/cmr/m/n/10.95 des pro-duits
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 490--491
+Underfull \hbox (badness 10000) in paragraph at lines 489--490
 []|\T1/cmr/m/n/10.95 Supprimer un
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--493
+Underfull \hbox (badness 10000) in paragraph at lines 491--492
 []|\T1/cmr/m/n/10.95 Donner l'image
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 498--499
+Underfull \hbox (badness 10000) in paragraph at lines 497--498
 []|\T1/cmr/m/n/10.95 Supprimer le
  []
 
 
-Underfull \hbox (badness 4608) in paragraph at lines 498--499
+Underfull \hbox (badness 4608) in paragraph at lines 497--498
 \T1/cmr/m/n/10.95 stock d'un pro-
  []
 
 
-Overfull \hbox (6.01303pt too wide) in paragraph at lines 500--500
-[]|\T1/cmr/m/n/10.95 findAllFournisseurs| 
+Overfull \hbox (6.01303pt too wide) in paragraph at lines 499--499
+[]|[]\T1/cmr/m/n/10.95 findAllFournisseurs| 
  []
 
 
-Overfull \hbox (4.6469pt too wide) in paragraph at lines 500--500
+Overfull \hbox (4.6469pt too wide) in paragraph at lines 499--499
 []|\T1/cmr/m/n/10.95 List<Fournisseur>| 
  []
 
 
-Overfull \hbox (1.47882pt too wide) in paragraph at lines 502--502
-[]|\T1/cmr/m/n/10.95 deleteFournisseurs| 
+Overfull \hbox (1.47882pt too wide) in paragraph at lines 501--501
+[]|[]\T1/cmr/m/n/10.95 deleteFournisseurs| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 502--503
+Underfull \hbox (badness 10000) in paragraph at lines 501--502
 []|\T1/cmr/m/n/10.95 Supprimer un
  []
 
 
-Underfull \hbox (badness 5203) in paragraph at lines 502--503
+Underfull \hbox (badness 5203) in paragraph at lines 501--502
 \T1/cmr/m/n/10.95 four-nis-seur as-so-
  []
 
 
-Overfull \hbox (2.08327pt too wide) in paragraph at lines 504--504
-[]|\T1/cmr/m/n/10.95 createFournisseurs| 
+Overfull \hbox (2.08327pt too wide) in paragraph at lines 503--503
+[]|[]\T1/cmr/m/n/10.95 createFournisseurs| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 506--507
+Underfull \hbox (badness 10000) in paragraph at lines 505--506
 []|\T1/cmr/m/n/10.95 Ajouter l'image
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 508--509
+Underfull \hbox (badness 10000) in paragraph at lines 507--508
 []|\T1/cmr/m/n/10.95 Supprimer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 508--509
+Underfull \hbox (badness 10000) in paragraph at lines 507--508
 \T1/cmr/m/n/10.95 l'image d'un
  []
 
-<Use_Case_diagram_logiciel.png, id=112, 735.74875pt x 436.63126pt>
-File: Use_Case_diagram_logiciel.png Graphic file (type png)
 
-<use Use_Case_diagram_logiciel.png>
-Package pdftex.def Info: Use_Case_diagram_logiciel.png used on input line 517.
-(pdftex.def)             Requested size: 542.025pt x 321.68962pt.
+! LaTeX Error: Cannot determine size of graphic in Use_Case_diagram_logiciel.pn
+g (no BoundingBox).
 
-Overfull \hbox (29.87537pt too wide) in paragraph at lines 517--518
- [] 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.516 ...dth=7.5in]{Use_Case_diagram_logiciel.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: Use_Case_diagram_logiciel.png Graphic file (type eps)
+<Use_Case_diagram_logiciel.png>
+Overfull \hbox (29.87537pt too wide) in paragraph at lines 516--517
+ [][] 
  []
 
+[8] [9] [10] [11] [12] [13] [14
 
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.520 ...mme illustre les actions possibles sur l’
-                                                  application pour l’entrepr...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.520 ...tions possibles sur l’application pour l’
-                                                  entrepreneur.
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[6
-
-] [7 <./diagram_passer_commande.png (PNG copy)>] [8 <./Use_Case_diagram_site_we
-b.png (PNG copy)>] [9 <./gestion_de_stocks_Class_diagram.png (PNG copy)>]
-[10] [11] [12] [13] [14 <./Use_Case_diagram_logiciel.png (PNG copy)>] [15
-
-]
-(template_stage_L3.bbl
+] (template_stage_L3.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [16
+) [15
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 555.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 555.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 553.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 553.
  (template_stage_L3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 555.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 555.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 553.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 553.
 Package rerunfilecheck Info: File `template_stage_L3.out' has not changed.
 (rerunfilecheck)             Checksum: 3F6686CD9102F8C7E580819B6B16338C;949.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 555.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 553.
  ) 
 Here is how much of TeX's memory you used:
- 8665 strings out of 493328
- 122465 string characters out of 3138291
- 275918 words of memory out of 3000000
- 12019 multiletter control sequences out of 15000+200000
+ 8117 strings out of 493329
+ 114333 string characters out of 3138317
+ 264974 words of memory out of 3000000
+ 11536 multiletter control sequences out of 15000+200000
  17697 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,12n,35p,403b,439s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Nini\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
-ccc1095.pk> <C:\Users\Nini\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
-\dpi600\ectt1095.pk> <C:\Users\Nini\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
-nappen\ec\dpi600\ecbx1200.pk> <C:\Users\Nini\AppData\Local\MiKTeX\2.9\fonts\pk\
-ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\Nini\AppData\Local\MiKTeX\2.9\
-fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Nini\AppData\Local\Mi
-KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Users\Nini\AppData
-\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Nin
-i\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\
-Users\Nini\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095
-.pk> <C:\Users\Nini\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecrm1728.pk><C:/Users/Nini/Documents/LaTeX/fonts/type1/public/amsfonts/cm/cmmi
-8.pfb><C:/Users/Nini/Documents/LaTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-C:/Users/Nini/Documents/LaTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on template_stage_L3.pdf (16 pages, 620554 bytes).
-PDF statistics:
- 499 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 500000)
- 135 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 29i,12n,35p,1360b,439s stack positions out of 5000i,500n,10000p,200000b,50000s
 
+Output written on template_stage_L3.dvi (15 pages, 56744 bytes).
